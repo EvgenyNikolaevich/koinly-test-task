@@ -1,0 +1,58 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 71,
+  "entry_count": 158,
+  "balances": {
+    "BBC": "100.0",
+    "BTC": "0.00000001",
+    "BTT": "64.858829",
+    "CHP": "31.0",
+    "DASH": "0.00011711",
+    "ETH": "4.12617389",
+    "MSP": "-11887.58",
+    "RPM": "100.0",
+    "TRX": "500.0"
+  },
+  "balance_diff": {
+    "ETH": "4.12616896",
+    "MSP": "-11887.58"
+  },
+  "txns": [
+    {
+      "type": "crypto_deposit",
+      "count": 14,
+      "first": "2017-08-31 06:15:14 UTC | Deposit 0.25528331 BTC (txhash: 0e1ee62030b221e06aebfeb521517021543ba6e6ffe56bbdd1a1616169ba3a5e, importer_tag: hitbtc)",
+      "last": "2019-04-11 15:59:27 UTC | Deposit 4.986744 BTT (label: airdrop, importer_tag: hitbtc)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 9,
+      "first": "2017-09-19 01:50:26 UTC | Withdraw 0.01426273 BTC (txhash: 7de28dc14beee2c72c90a87701f3af499c43532157c8cc8be52d625ec0e499dd, txdest: 3CLmC2Jdm2PZFwM1AvK5nKcsbmsHdc8uNH, importer_tag: hitbtc)",
+      "last": "2018-05-04 14:39:02 UTC | Withdraw 3734.17 MSP (txhash: 0xae00f4cdcceb9ac27b325ad4cf0187d33aa7a75837b92ae1067c639c9fdbf3d0, txdest: 0xaa68849AFfF34b30DEb511968BE0bAdEfc4F9279, importer_tag: hitbtc)"
+    },
+    {
+      "type": "exchange",
+      "count": 48,
+      "first": "2017-08-31 06:30:15 UTC | 0.03777683 BTC -> 0.455 ETH (fee: 0.000037777 BTC, txhash: 22016942, importer_tag: hitbtc)",
+      "last": "2018-05-04 13:05:26 UTC | 382.0 PAY -> 0.764 ETH (fee: 0.000764 ETH, txhash: 283639365, importer_tag: hitbtc)"
+    }
+  ],
+  "labeled_txns": [
+    [
+      {
+        "type": "airdrop",
+        "count": 7,
+        "first": "2017-11-13 16:01:34 UTC | Deposit 500.0 TRX (label: airdrop, importer_tag: hitbtc)",
+        "last": "2019-04-11 15:59:27 UTC | Deposit 4.986744 BTT (label: airdrop, importer_tag: hitbtc)"
+      }
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 39,
+    "first": "2017-08-31 06:30:15 UTC | 0.03777683 BTC -> 0.455 ETH (fee: 0.000037777 BTC, txhash: 22016942, importer_tag: hitbtc)",
+    "last": "2018-05-04 13:05:26 UTC | 382.0 PAY -> 0.764 ETH (fee: 0.000764 ETH, txhash: 283639365, importer_tag: hitbtc)"
+  },
+  "txn_with_net_worth": null,
+  "txn_with_desc": null
+}

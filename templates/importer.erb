@@ -1,0 +1,117 @@
+class <%= class_name %>Importer < BaseImporter
+  PAGE_LIMIT = 50 # TODO: override or remove this!
+
+  attr_accessor :api
+  <%= "attr_accessor :address\n" if methods.include?('address') -%>
+
+  def initialize(wallet, options)
+    super
+    self.api = <%= class_name %>Api.new(<%= methods.map{|x| "#{x}: options[:#{x}].strip" }.join(', ') %>)
+    <%= "self.address = options[:address].strip.downcase" if methods.include?('address') -%>
+
+  end
+
+  def self.required_options
+    [<%= methods.map{|x| ":#{x}" }.join(', ') %>]
+  end
+
+  # todo: specify what this importer can and cannot import here
+  def self.notes
+    [
+      "good:Deposits",
+      "good:Withdrawals",
+      "good:Trades",
+      # "good:Something that cant be imported",
+      # "limit:Some items such as <b>XYZ</b> cant be imported, you may be able to use CSV files instead!"
+    ]
+  end
+
+  protected
+
+  def import
+    # todo: add or remove methods here as needed
+    sync_deposits
+    sync_withdrawals
+    sync_trades
+  end
+
+  def sync_balances
+    # todo: replace with balance logic, need to return { 'BTC' => 25.52 }
+    api.balances.each_with_object(Hash.new(0)) do |(key, bal), obj|
+      obj[key] += bal
+    end
+  end
+
+  private
+
+  def sync_deposits
+    # todo: make sure the pagination key name is unique!
+    with_pagination(:deposits) do |last_offset|
+      txns = api.transactions(type: 'deposit', offset: last_offset, limit: PAGE_LIMIT)
+
+      txns.each do |txn|
+        sync_receive(
+          date: txn['date'],
+          amount: txn['amount'],
+          currency: txn['symbol'],
+          txsrc: txn['src'],
+          txdest: txn['dest'],
+          txhash: txn['hash'],
+          external_id: txn['id'],
+          external_data: txn,
+        )
+      end
+
+      [last_offset + txns.count, txns.count == PAGE_LIMIT]
+    end
+  end
+
+  def sync_withdrawals
+    # todo: make sure the pagination key name is unique!
+    with_pagination(:withdrawals) do |last_offset|
+      txns = api.transactions(type: 'withdraw', offset: last_offset, limit: PAGE_LIMIT)
+
+      txns.each do |txn|
+        sync_send(
+          date: txn['date'],
+          amount: txn['amount'],
+          currency: txn['symbol'],
+          txsrc: txn['src'],
+          txdest: txn['dest'],
+          txhash: txn['hash'],
+          external_id: txn['id'],
+          external_data: txn,
+        )
+      end
+
+      [last_offset + txns.count, txns.count == PAGE_LIMIT]
+    end
+  end
+
+  def sync_trades
+    # todo: make sure the pagination key name is unique!
+    with_pagination(:trades) do |last_ts|
+      txns = api.trades(limit: PAGE_LIMIT, since: last_ts || 0)
+
+      txns.each do |txn|
+        base, quote = TxnHelper.split_pair(txn['pair'])
+
+        sync_trade(
+          date: txn['timestamp'],
+          base_amount: txn['amount'],
+          base_symbol: base,
+          quote_amount: txn['price'].to_d * txn['amount'].to_d,
+          quote_symbol: quote,
+          fee_amount: txn['fee_amount'],
+          fee_currency: txn['fee_currency'],
+          is_buy: txn['type'].match(/buy/i),
+          trade_identifier: txn['tid'],
+          order_identifier: txn['order_id'],
+          external_data: txn,
+        )
+      end
+
+      [(txns.last.try(:dig, 'timestamp') || last_ts).to_i, txns.count == PAGE_LIMIT]
+    end
+  end
+end

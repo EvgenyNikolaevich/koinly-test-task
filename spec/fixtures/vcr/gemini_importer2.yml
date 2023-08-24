@@ -1,0 +1,1391 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/transfers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJsaW1pdF90cmFuc2ZlcnMiOjUwLCJ0aW1lc3RhbXAiOjAsInJlcXVlc3QiOiIvdjEvdHJhbnNmZXJzIiwibm9uY2UiOiIxNTY4MTA3NDE5OTA5MzY3MDQwIn0=
+      X-Gemini-Signature:
+      - 2dfa875c036fbda4221d3ea7df79ab77ef7f52dbf0dcdd80f56ba199da1c04048b08a6c7ca8a4ee229c722865dbeb47f
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:23:41 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2011'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"type":"Deposit","status":"Advanced","timestampms":1517959055597,"eid":2973563942,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1513868313195,"eid":2513390203,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1513526842724,"eid":2491628382,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Complete","timestampms":1513011278401,"eid":2450057458,"currency":"ETH","amount":"3.08544801","txHash":"605dcdd9d80664b4159f7adb3b1b3b4429d649b225d9ffa7cf12cf39be49712d","outputIdx":0,"destination":"0x865b5cEFA19Fa73BA9cAaE8a41a2Ba7d7FE19c2B"},{"type":"Deposit","status":"Advanced","timestampms":1512693602699,"eid":2423596035,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1512678494343,"eid":2422708505,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Complete","timestampms":1512624607981,"eid":2417397335,"currency":"BTC","amount":"0.07427478","txHash":"32733b7e92bc33829cb6cdda27ebd07af8c4c49694ba16389d9d0b046b7a0983","outputIdx":1,"destination":"1McPmtaA4hLhF1zNFw45pcEcGeqkMmZHnC"},{"type":"Deposit","status":"Advanced","timestampms":1512592133788,"eid":2413917213,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1512223488434,"eid":2380049827,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1512089931095,"eid":2365888551,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1511961435841,"eid":2353342272,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1509997457809,"eid":2159990483,"currency":"USD","amount":"500.00","method":"ACH"},{"type":"Deposit","status":"Advanced","timestampms":1504487385655,"eid":1559707386,"currency":"USD","amount":"500.00","method":"ACH"}]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:23:41 GMT
+- request:
+    method: get
+    uri: https://api.gemini.com/v1/symbols
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:23:50 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '136'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '["btcusd","ethbtc","ethusd","bchusd","bchbtc","bcheth","ltcusd","ltcbtc","ltceth","ltcbch","zecusd","zecbtc","zeceth","zecbch","zecltc"]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:23:50 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJidGN1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDMwMzcyOTY2OTEyIn0=
+      X-Gemini-Signature:
+      - 5d5e5d0bedbecd310fa290ecc62b0793f34d25cf3709301f1aa484392f0d1f608314250e461742d822ee1bae383759ba
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:23:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '4942'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"price":"8260.00","amount":"0.06044969","timestamp":1518029970,"timestampms":1518029970666,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.2482860985","tid":2982535127,"order_id":"2982535125","exchange":"gemini","is_auction_fill":false},{"price":"15488.75","amount":"0.05810669","timestamp":1513983564,"timestampms":1513983564894,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"2.24999998684375","tid":2523837773,"order_id":"2523837771","exchange":"gemini","is_auction_fill":false},{"price":"12000.02","amount":"0.8312538099","timestamp":1513955322,"timestampms":1513955322702,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"24.937655859690495","tid":2521103822,"order_id":"2521103820","exchange":"gemini","is_auction_fill":false},{"price":"13878.61","amount":"0.75513252","timestamp":1513940692,"timestampms":1513940692404,"type":"Sell","aggressor":true,"fee_currency":"USD","fee_amount":"26.200474358493","tid":2519635111,"order_id":"2519635105","exchange":"gemini","is_auction_fill":false},{"price":"13890.35","amount":"0.03585222","timestamp":1513940692,"timestampms":1513940692404,"type":"Sell","aggressor":true,"fee_currency":"USD","fee_amount":"1.2449997101925","tid":2519635109,"order_id":"2519635105","exchange":"gemini","is_auction_fill":false},{"price":"13894.53","amount":"0.00014034","timestamp":1513940692,"timestampms":1513940692404,"type":"Sell","aggressor":true,"fee_currency":"USD","fee_amount":"0.0048748958505","tid":2519635107,"order_id":"2519635105","exchange":"gemini","is_auction_fill":false},{"price":"14500.01","amount":"0.79112508","timestamp":1513939160,"timestampms":1513939160487,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"28.678303928127","tid":2519508760,"order_id":"2519508758","exchange":"gemini","is_auction_fill":false},{"price":"19600.00","amount":"0.04179104","timestamp":1513551319,"timestampms":1513551319097,"type":"Sell","aggressor":true,"fee_currency":"USD","fee_amount":"2.04776096","tid":2493392163,"order_id":"2493392161","exchange":"gemini","is_auction_fill":false},{"price":"19616.80","amount":"0.03906408","timestamp":1513465405,"timestampms":1513465405792,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.91578061136","tid":2486734626,"order_id":"2486734618","exchange":"gemini","is_auction_fill":false},{"price":"19616.79","amount":"0.000994","timestamp":1513465405,"timestampms":1513465405792,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"0.04874772315","tid":2486734624,"order_id":"2486734618","exchange":"gemini","is_auction_fill":false},{"price":"19616.73","amount":"0.00079","timestamp":1513465405,"timestampms":1513465405792,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"0.03874304175","tid":2486734622,"order_id":"2486734618","exchange":"gemini","is_auction_fill":false},{"price":"19615.99","amount":"0.00094296","timestamp":1513465405,"timestampms":1513465405792,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"0.046242734826","tid":2486734620,"order_id":"2486734618","exchange":"gemini","is_auction_fill":false},{"price":"17000.00","amount":"0.44918378","timestamp":1513298323,"timestampms":1513298323575,"type":"Sell","aggressor":false,"fee_currency":"USD","fee_amount":"19.09031065","tid":2476190188,"order_id":"2474516405","exchange":"gemini","is_auction_fill":false},{"price":"16354.77","amount":"0.0304958808","timestamp":1512704401,"timestampms":1512704401458,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.24688279107854","tid":2424492742,"order_id":"2424492740","exchange":"gemini","is_auction_fill":false},{"price":"16000.00","amount":"0.0311720698","timestamp":1512681824,"timestampms":1512681824139,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.246882792","tid":2422960721,"order_id":"2422960719","exchange":"gemini","is_auction_fill":false},{"price":"13188.38","amount":"0.075635236","timestamp":1512594079,"timestampms":1512594079318,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"2.4937655843942","tid":2414159364,"order_id":"2414159362","exchange":"gemini","is_auction_fill":false},{"price":"11435.44","amount":"0.0436146853","timestamp":1512333899,"timestampms":1512333899737,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.24688279216758","tid":2391320867,"order_id":"2391320865","exchange":"gemini","is_auction_fill":false},{"price":"6889.01","amount":"0.0739911374","timestamp":1510330362,"timestampms":1510330362230,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.274314213649935","tid":2190594667,"order_id":"2190594665","exchange":"gemini","is_auction_fill":false},{"price":"4040.34","amount":"0.12","timestamp":1505271000,"timestampms":1505271000579,"type":"Buy","aggressor":false,"fee_currency":"USD","fee_amount":"1.212102","tid":1662440005,"order_id":"1661578642","exchange":"gemini","is_auction_fill":false}]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:23:51 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJldGhidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDM3NTAxODA4MTI4In0=
+      X-Gemini-Signature:
+      - b400e94e42b6f8c125ececcf2c7408c68eba028978755e5fc411348a2a05b62c5620d10d29016ec10b994f37c44b1888
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:23:58 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:23:59 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJldGh1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDU0NDQ5NzMzMTIwIn0=
+      X-Gemini-Signature:
+      - 7850a5b12e0966803bb2d7fc7ee195e9b4901f68510cd90dd80839bd8a078fc086f72381a50784a320a07dd8eb85329c
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '773'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"price":"793.01","amount":"0.11195073","timestamp":1517960985,"timestampms":1517960985294,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"0.22194512099325","tid":2973831874,"order_id":"2973831872","exchange":"gemini","is_auction_fill":false},{"price":"721.53","amount":"4.06493","timestamp":1513911662,"timestampms":1513911662396,"type":"Sell","aggressor":true,"fee_currency":"USD","fee_amount":"7.33242235725","tid":2516867344,"order_id":"2516867342","exchange":"gemini","is_auction_fill":false},{"price":"509.20","amount":"0.97948373","timestamp":1511961520,"timestampms":1511961520054,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.24688278829","tid":2353345648,"order_id":"2353345646","exchange":"gemini","is_auction_fill":false}]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:15 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJiY2h1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDY5NzI4MjkyMDk2In0=
+      X-Gemini-Signature:
+      - e55966b48c710de0e232dfb76922e9884e23b116001c2c7f0c3ee26119a089dba359e35f838923ea81019d257e6bd425
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:31 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:31 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJiY2hidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDczMTgxMTM1MTA0In0=
+      X-Gemini-Signature:
+      - e3c187a6d1bcf62e8bc6151ef5ddf37a64b6ccb3b84297c4e11ea5159ce293b7c63619594f08d1ac1d9fc96bdf996cb1
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:34 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:34 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJiY2hldGgiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDgyMDM1ODU2ODk2In0=
+      X-Gemini-Signature:
+      - '08502b3c0f4c1a8670150b40e67dacbee21d26eda0de719ed482a553da301e3d1a71ae7331d9d60a4b2bd5780128c2c2'
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:43 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:43 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGN1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDg2NTQ2ODc0MTEyIn0=
+      X-Gemini-Signature:
+      - 17e50b2941ce1bcd1e961c0ca72de8b290b51cf02dcbe414c715a863bdd70341a062eb6f97577a306037a0c6125522bb
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:47 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:48 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGNidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDg4NDI1NzQ3OTY4In0=
+      X-Gemini-Signature:
+      - 97735656975be7548cd0da8361dbbf534153896338763672d545ff469446905f91f702cf6d01343c111086b37a7a4904
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:49 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:49 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGNldGgiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDg5OTMyODQzMDA4In0=
+      X-Gemini-Signature:
+      - 5f42b5e2bbbad335efc0ddfd02541cf64c2e1a03a932eed75eddd6b373e760b332ae97c9802a11d14e45ce86cb67e2ae
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:50 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:51 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGNiY2giLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDkxNjA3MjYyOTc2In0=
+      X-Gemini-Signature:
+      - a76714ee9361b34decaa08c5badf060a2a8f3ee6ebbb3d82ce5acd82b8037dd9380019f18bc840277b54aebe41aa2474
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:52 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:52 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWN1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDkzMDgyNzk1MDA4In0=
+      X-Gemini-Signature:
+      - 19fb621fbb35f1e83cdf9369f2d0ab8cd34716d939d75910d2e9614b01776d1a5ef4918f751157146f3d23d4a7ba994a
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:54 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:54 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDk0NjAxMTI4OTYwIn0=
+      X-Gemini-Signature:
+      - a5545503c094f6a91b988f8fd02129b935998e7e99a67d9412ef5eae2ef8cfce58d7c64e787c84ac5ae1c9717af9e83e
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:56 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:56 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNldGgiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDk2NTcwMzE1MDA4In0=
+      X-Gemini-Signature:
+      - c8fa68a433f39f9e86d6b6bc74ee393e7e617aaaeabd2c218e731d424d815bab4cda00f4adc87735cdc7961795e3ceae
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:57 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:24:57 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNiY2giLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NDk4MjU4NTgzMDQwIn0=
+      X-Gemini-Signature:
+      - 3fe0329eef0825d396c3875b521f3bb44f34e018c89a5c8292f118887390bab84201fce189181c8a4f87ef994da8e8dd
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:24:59 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:00 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNsdGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTAwMDI2NzMzMDU2In0=
+      X-Gemini-Signature:
+      - a99bb593e2a3e257b1a8c5850279191e20ec68cfeb6bba90abda78a167344a0232d33d010fcf09fcc260c5cd498f4360
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:01 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:01 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/balances
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJyZXF1ZXN0IjoiL3YxL2JhbGFuY2VzIiwibm9uY2UiOiIxNTY4MTA3NTAxOTQ4MzI0MDk2In0=
+      X-Gemini-Signature:
+      - 3639ea3652677ffa283f246e15ce2386f92426cffc2b3f96a8ac3687cedf3d6e04117866daa29955a5644cd0cfe6fbb9
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:03 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '363'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"type":"exchange","currency":"BTC","amount":"0.9498101992","available":"0.94981019","availableForWithdrawal":"0.94981019"},{"type":"exchange","currency":"USD","amount":"1.69568498749325","available":"1.69","availableForWithdrawal":"1.69"},{"type":"exchange","currency":"ETH","amount":"0.11195247","available":"0.11195247","availableForWithdrawal":"0.11195247"}]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:03 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/transfers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJsaW1pdF90cmFuc2ZlcnMiOjUwLCJ0aW1lc3RhbXAiOjE1MTc5NTkwNTUsInJlcXVlc3QiOiIvdjEvdHJhbnNmZXJzIiwibm9uY2UiOiIxNTY4MTA3NTAzMzAxNDg1MDU2In0=
+      X-Gemini-Signature:
+      - a198dc1a2a525f3693e6ce25f5ddd8ec9a182f699f4229b35260ccf914ac52fe589f945a97a83056f368d5094534e395
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:04 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '135'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"type":"Deposit","status":"Advanced","timestampms":1517959055597,"eid":2973563942,"currency":"USD","amount":"500.00","method":"ACH"}]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:05 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJidGN1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjoxNTE4MDI5OTcwLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTA1MTQ3NDUxOTA0In0=
+      X-Gemini-Signature:
+      - a0fc236d8db3c2b7ddc23916c16de7545d64fe63440c67f86f39c4261f1297262a41d193cd4ea3f95f00eeae58d762bb
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:06 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '258'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"price":"8260.00","amount":"0.06044969","timestamp":1518029970,"timestampms":1518029970666,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"1.2482860985","tid":2982535127,"order_id":"2982535125","exchange":"gemini","is_auction_fill":false}]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:06 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJldGhidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTA2ODk2MjU0OTc2In0=
+      X-Gemini-Signature:
+      - 262ac6aafc9f3172f99ec1ba7d706580e9d3d88814dbcdea5d62d414e8d93d39ed9bbb26a0e6a57cd84ce76cbd99f9dc
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:08 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:08 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJldGh1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjoxNTE3OTYwOTg1LCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTA4MzIxNTQxMTIwIn0=
+      X-Gemini-Signature:
+      - 21515bd437169bfea0df7e4509098a1c2182e2eafac4b1e55bc34cbbecb29638c546cf5e08467f42817216b2c6aa63a0
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:09 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '261'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"price":"793.01","amount":"0.11195073","timestamp":1517960985,"timestampms":1517960985294,"type":"Buy","aggressor":true,"fee_currency":"USD","fee_amount":"0.22194512099325","tid":2973831874,"order_id":"2973831872","exchange":"gemini","is_auction_fill":false}]'
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:10 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJiY2h1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTEwMTAxNTk0MTEyIn0=
+      X-Gemini-Signature:
+      - e657d9ad233eb4c169d2d8fe6565f741e7f7bbf624f0aa7de7aa6403b01788bb6271ed21c8e6dc9558fbb81e50600825
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:11 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:11 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJiY2hidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTExNDg5NjQwOTYwIn0=
+      X-Gemini-Signature:
+      - 1ead9a01eae2b328fd63981b107293e107c2a56716c6f56ca25a0af2c4a113a0288c7f67d80ece7bc7cbb68681fcfe11
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:13 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJiY2hldGgiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTEzMjQzNjg2OTEyIn0=
+      X-Gemini-Signature:
+      - 8dd636c3e76628e09429d7bd5cfd6bbd7e0f1dd1564a3059f4e1d19390ca4e49985443c6bd465f7014cef6cac54b2c11
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:14 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:14 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGN1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTE0NzYzOTA3MDcyIn0=
+      X-Gemini-Signature:
+      - 423193999c6e23e04a9f07a7793d7fbe2ae9a7b75cff99bb3810edd3a210e4bbea5e6b87a342c2744a897f95c2d890f3
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:16 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:16 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGNidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTE2MjAxNDc5OTM2In0=
+      X-Gemini-Signature:
+      - 68d65022c8b851cb665929ebd1ead409a126082aa503339490c70f5ff0d164adf3e7e58e234d8b80ce0966d8532cfaf6
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:17 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:17 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGNldGgiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTE3NDQwNjkyOTkyIn0=
+      X-Gemini-Signature:
+      - 73a11d926b1aa6f9c0a65c07e8a48f2969c4937ab14641ef9152e7397ea92499ec0a34dc4c07dbf36435a6793f5a092b
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:18 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:19 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJsdGNiY2giLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTE5MDY2MzU1OTY4In0=
+      X-Gemini-Signature:
+      - 832320d008eca08a7a46e62f5a4cbe500062977b08525decea0a00c7eee6c65411f29246e03807bc0d870d4a2d07b19f
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:20 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:20 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWN1c2QiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTIxMDEyMjYxODg4In0=
+      X-Gemini-Signature:
+      - 2cabc43b3f1d46da70b858534bcfe16e4dfb724e5697ac0c81ddf9dd19dcb83fbd061e7a93714a8b2e9df732155636f7
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:22 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:22 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNidGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTIyOTU3MTg2MDQ4In0=
+      X-Gemini-Signature:
+      - e0491f4e59a64f2646df88c266057fa20996eb4ba391ddbeec0a7ef0be59b017fc113883cdd51ffe8fe4e684dea84897
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:24 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:24 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNldGgiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTMwNjAxODE3MDg4In0=
+      X-Gemini-Signature:
+      - 6c5e2a14c94cd399e08138281813589c47897c07885dee8417d0716c226d2ad39f9d57f286eb12124d54c73e7b6cba39
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:31 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:31 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNiY2giLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTM3NTY1NDQzMDcyIn0=
+      X-Gemini-Signature:
+      - 45b0507b8c04543aecc11846045ec4344d8994c0eeb644036fe9597253fee42924b384ac441d7bdb6c125dc36fa3cf1c
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:38 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:38 GMT
+- request:
+    method: post
+    uri: https://api.gemini.com/v1/mytrades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Gemini-Apikey:
+      - xxx
+      X-Gemini-Payload:
+      - eyJzeW1ib2wiOiJ6ZWNsdGMiLCJsaW1pdF90cmFkZXMiOjUwMCwidGltZXN0YW1wIjowLCJyZXF1ZXN0IjoiL3YxL215dHJhZGVzIiwibm9uY2UiOiIxNTY4MTA3NTQ0MzYwNDI0OTYwIn0=
+      X-Gemini-Signature:
+      - b43afabc1ca9045727ba25724897ab16f67a1dd2e3b18c2276d124e2687eb35f42bd178b32dfcfbed4ccf12c74fcb6bc
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Sep 2019 09:25:45 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - close
+      Server:
+      - nginx
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Tue, 10 Sep 2019 09:25:45 GMT
+recorded_with: VCR 4.0.0

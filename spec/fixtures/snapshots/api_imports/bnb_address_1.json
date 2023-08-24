@@ -1,0 +1,31 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 2,
+  "entry_count": 2,
+  "balances": {
+    "BNB": "0.00055437"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "crypto_deposit",
+      "count": 1,
+      "first": "2019-11-20 04:26:37 UTC | Deposit 1.07292937 BNB (txhash: 7FB1D27674BE22D2E0D1B3AB858EE59DE44F0697BC4A0D100431390F6DC04E81, txsrc: bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m, txdest: bnb1k2v0g4eylh2h74w94u06rfn7qu4dl0y0d8wnax, importer_tag: binance_dex)",
+      "last": false
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 1,
+      "first": "2019-11-28 04:07:27 UTC | Withdraw 1.072375 BNB (txhash: 3EAE932C9ABACAB88CC38CD68CA92D6B678583035E2E83E62EAB9AD2E8B7A3DB, txsrc: bnb1k2v0g4eylh2h74w94u06rfn7qu4dl0y0d8wnax, txdest: bnb1khqu84s7gz3lm0nnz47j4attl3lr4tgg6l8cpx, importer_tag: binance_dex)",
+      "last": false
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null
+}

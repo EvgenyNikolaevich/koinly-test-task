@@ -1,0 +1,36 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 1,
+  "entry_count": 2,
+  "balances": {
+    "BTC": "-0.015347",
+    "TRX": "5150.0"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "exchange",
+      "count": 1,
+      "first": "2018-09-13 09:46:23 UTC | 0.015347 BTC -> 5150.0 TRX (txhash: cd881305)",
+      "last": false
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null,
+  "csv_import": {
+    "total_count": 1,
+    "skipped_count": 0,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 1,
+    "bad_rows": [
+
+    ]
+  }
+}

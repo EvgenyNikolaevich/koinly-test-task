@@ -1,0 +1,49 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 241,
+  "entry_count": 601,
+  "balances": {
+    "LGOOLD": "0.00000001"
+  },
+  "balance_diff": {
+    "LGOOLD": "0.00000001"
+  },
+  "txns": [
+    {
+      "type": "crypto_deposit",
+      "count": 25,
+      "first": "2018-01-31 00:55:54 UTC | Deposit 0.9 ETH (txhash: 0x5712c688bfcd936131e94ccd1ce441d51e295ab82ffbfae398074513b6d268d6, importer_tag: idex)",
+      "last": "2018-05-13 13:23:19 UTC | Deposit 2.35 ETH (txhash: 0xea1bc066c1a5ad7f7905b2b8c0bf1cb4faba70a9a16fc4458d9c0f66e8baed63, importer_tag: idex)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 36,
+      "first": "2018-01-31 01:07:29 UTC | Withdraw 2269.8097131497 TRAC (txhash: 0x0a35cd3311d765c8ac2cff274ab23c764e4e66e666a349a6da401f090ba82959, importer_tag: idex)",
+      "last": "2018-05-14 17:55:14 UTC | Withdraw 0.1191957373 ETH (txhash: 0x011b31a303f8f075ea3ae01e2fe5eff0eccc04af9a43afd621189223c889eab6, importer_tag: idex)"
+    },
+    {
+      "type": "exchange",
+      "count": 180,
+      "first": "2018-01-31 01:06:33 UTC | 0.7952286282 ETH -> 2272.0817949446 TRAC (fee: 2.2720817949 TRAC, net worth: 822.6756342744 USD, txhash: 0x5f83fe3e3b2a1d565ad95ef09316901a3fc3c0a9f12fed671e5903146dbe1bcf, importer_tag: idex)",
+      "last": "2018-05-14 05:47:35 UTC | 0.8808042627 ETH -> 21462.0921715958 XTRD (fee: 21.4620921716 XTRD, net worth: 614.93 USD, txhash: 0xc8ded3f0c1c59c87012e5c6cdb89cff18527727423317b46f0c6dc08f522cf54, importer_tag: idex)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 180,
+    "first": "2018-01-31 01:06:33 UTC | 0.7952286282 ETH -> 2272.0817949446 TRAC (fee: 2.2720817949 TRAC, net worth: 822.6756342744 USD, txhash: 0x5f83fe3e3b2a1d565ad95ef09316901a3fc3c0a9f12fed671e5903146dbe1bcf, importer_tag: idex)",
+    "last": "2018-05-14 05:47:35 UTC | 0.8808042627 ETH -> 21462.0921715958 XTRD (fee: 21.4620921716 XTRD, net worth: 614.93 USD, txhash: 0xc8ded3f0c1c59c87012e5c6cdb89cff18527727423317b46f0c6dc08f522cf54, importer_tag: idex)"
+  },
+  "txn_with_net_worth": {
+    "type": "with metadata",
+    "count": 180,
+    "first": "2018-01-31 01:06:33 UTC | 0.7952286282 ETH -> 2272.0817949446 TRAC (fee: 2.2720817949 TRAC, net worth: 822.6756342744 USD, txhash: 0x5f83fe3e3b2a1d565ad95ef09316901a3fc3c0a9f12fed671e5903146dbe1bcf, importer_tag: idex)",
+    "last": "2018-05-14 05:47:35 UTC | 0.8808042627 ETH -> 21462.0921715958 XTRD (fee: 21.4620921716 XTRD, net worth: 614.93 USD, txhash: 0xc8ded3f0c1c59c87012e5c6cdb89cff18527727423317b46f0c6dc08f522cf54, importer_tag: idex)"
+  },
+  "txn_with_desc": null
+}

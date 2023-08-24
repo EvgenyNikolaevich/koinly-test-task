@@ -1,0 +1,75 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 257,
+  "entry_count": 661,
+  "balances": {
+    "BTC": "0.00000001",
+    "ETH": "0.00006971",
+    "USD": "2500.0030138"
+  },
+  "balance_diff": {
+    "USD": "2500.0"
+  },
+  "txns": [
+    {
+      "type": "buy",
+      "count": 89,
+      "first": "2017-09-15 20:11:05 UTC | 6982.543640655 USD -> 1.8922882495 BTC (fee: 17.4563591016 USD, txhash: 1703428715, importer_tag: gemini)",
+      "last": "2019-06-26 17:53:38 UTC | 7388.249946889 USD -> 0.5451187 BTC (fee: 111.750053111 USD, txhash: 7069248295, importer_tag: gemini)"
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 16,
+      "first": "2017-08-25 22:04:53 UTC | Deposit 0.32403556 BTC (txhash: 9b66e3eaab43b24c8767617943932c131ef76bd41fc98a531e33d84eea9ac6a7, txdest: 1HjSWtyDetrPb2V2hmN1mDhz9rXbcnmQG4, importer_tag: gemini)",
+      "last": "2018-06-08 12:57:32 UTC | Deposit 1.2255848 ETH (txhash: 6d287ce01b0be8e66b3c44e107ae04d6e609637c758c3e377249130b6e51234c, txdest: 0x6ca8DE9ba5fA6B7Db94b8E466b3D3A381924b587, importer_tag: gemini)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 8,
+      "first": "2017-10-04 23:56:56 UTC | Withdraw 0.3 BTC (txhash: aa265105481a4b46d63454f2b63435ef1dd6c52cea15dfbdaf406376a857708c, txdest: 1LZXwhC9mDC5mKYihHDpiJTEu4Uhvyu3eV, importer_tag: gemini)",
+      "last": "2018-04-23 10:34:36 UTC | Withdraw 5.436 BTC (txhash: acf5f6b8d511931aabc3aca225e8ca7bf510eb8baaf00d5bdf825bd20f074cd5, txdest: 1BbK3mWShSr2zRGgoTR4hSTqA9RzcyrG61, importer_tag: gemini)"
+    },
+    {
+      "type": "exchange",
+      "count": 13,
+      "first": "2017-12-13 21:28:28 UTC | 14.3555 ETH -> 0.593887035 BTC (fee: 0.0014847176 BTC, txhash: 2467492597, importer_tag: gemini)",
+      "last": "2017-12-13 21:29:21 UTC | 0.721853 ETH -> 0.0298125289 BTC (fee: 0.0000745313 BTC, txhash: 2467492597, importer_tag: gemini)"
+    },
+    {
+      "type": "fiat_deposit",
+      "count": 14,
+      "first": "2017-09-15 17:17:35 UTC | Deposit 7000.0 USD (desc: Wire, importer_tag: gemini)",
+      "last": "2019-06-26 17:53:38 UTC | Deposit 2500.0 USD (desc: ACH, importer_tag: gemini)"
+    },
+    {
+      "type": "fiat_withdrawal",
+      "count": 17,
+      "first": "2017-09-01 14:26:01 UTC | Withdraw 1551.17 USD (desc: Wire, importer_tag: gemini)",
+      "last": "2019-08-30 20:24:38 UTC | Withdraw 18475.89 USD (desc: ACH, importer_tag: gemini)"
+    },
+    {
+      "type": "sell",
+      "count": 100,
+      "first": "2017-09-01 14:20:28 UTC | 0.32403556 BTC -> 1555.0596138624 USD (fee: 3.8876490347 USD, txhash: 1531280902, importer_tag: gemini)",
+      "last": "2019-06-26 20:36:54 UTC | 1.5551187 BTC -> 18755.338018293 USD (fee: 279.45 USD, txhash: 7072635524, importer_tag: gemini)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 202,
+    "first": "2017-09-01 14:20:28 UTC | 0.32403556 BTC -> 1555.0596138624 USD (fee: 3.8876490347 USD, txhash: 1531280902, importer_tag: gemini)",
+    "last": "2019-06-26 20:36:54 UTC | 1.5551187 BTC -> 18755.338018293 USD (fee: 279.45 USD, txhash: 7072635524, importer_tag: gemini)"
+  },
+  "txn_with_net_worth": null,
+  "txn_with_desc": {
+    "type": "with desc",
+    "count": 31,
+    "first": "2017-09-01 14:26:01 UTC | Withdraw 1551.17 USD (desc: Wire, importer_tag: gemini)",
+    "last": "2019-08-30 20:24:38 UTC | Withdraw 18475.89 USD (desc: ACH, importer_tag: gemini)"
+  }
+}

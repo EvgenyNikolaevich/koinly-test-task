@@ -1,0 +1,58 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 17,
+  "entry_count": 20,
+  "balances": {
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 1,
+      "first": "2015-04-14 09:54:49 UTC | 0.91 USD -> 0.00402302 BTC (importer_tag: anxpro)",
+      "last": false
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 7,
+      "first": "2014-07-31 13:43:37 UTC | Deposit 0.12 BTC (importer_tag: anxpro)",
+      "last": "2015-04-21 17:40:17 UTC | Deposit 0.77232797 BTC (importer_tag: anxpro)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 5,
+      "first": "2014-07-31 13:50:42 UTC | Withdraw 0.12 BTC (importer_tag: anxpro)",
+      "last": "2015-04-14 10:34:04 UTC | Withdraw 0.225 BTC (importer_tag: anxpro)"
+    },
+    {
+      "type": "fiat_withdrawal",
+      "count": 2,
+      "first": "2015-01-07 15:43:52 UTC | Withdraw 251.0 USD (importer_tag: anxpro)",
+      "last": "2015-04-21 21:43:33 UTC | Withdraw 229.49 USD (importer_tag: anxpro)"
+    },
+    {
+      "type": "sell",
+      "count": 2,
+      "first": "2015-01-07 15:43:47 UTC | 1.0 BTC -> 251.91 USD (importer_tag: anxpro)",
+      "last": "2015-04-21 21:43:06 UTC | 1.05135099 BTC -> 229.49 USD (importer_tag: anxpro)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null,
+  "csv_import": {
+    "total_count": 17,
+    "skipped_count": 0,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 17,
+    "bad_rows": [
+
+    ]
+  }
+}

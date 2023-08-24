@@ -1,0 +1,48 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 18,
+  "entry_count": 34,
+  "balances": {
+    "BNB": "1.25624732",
+    "CBM": "88.0",
+    "GTO": "5023.56",
+    "KAVA": "217.97",
+    "ONE": "49330.763"
+  },
+  "balance_diff": {
+    "BNB": "0.00005"
+  },
+  "txns": [
+    {
+      "type": "crypto_deposit",
+      "count": 9,
+      "first": "2019-08-16 16:43:09 UTC | Deposit 18780.0 ONE (txhash: B548B69CBA71370EF5530F2D306A8BBCC8C64500D104124CA612C0EF6FCB9B42, txsrc: bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m, txdest: bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y, importer_tag: binance_dex)",
+      "last": "2020-01-14 21:23:17 UTC | Deposit 212.985 KAVA (txhash: CAF2BC6CE552FE5101B7754EA4D8C63AB87FBDD7E075726369E7D36BC4755E79, txsrc: bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m, txdest: bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y, importer_tag: binance_dex)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 1,
+      "first": "2019-11-23 01:40:42 UTC | Withdraw 65.14237149 BNB (txhash: 8AF32D3E371EAC9DAEDB6D76FA64FDFFF19FC9281F0C381FBE81B3571D1E7CE5, txsrc: bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y, txdest: bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23, importer_tag: binance_dex)",
+      "last": false
+    },
+    {
+      "type": "exchange",
+      "count": 8,
+      "first": "2019-10-08 23:58:50 UTC | 14.99146 BNB -> 18260.0 RUNE (fee: 0.00599658 BNB, txhash: 35FAA410682207EC0E73214D8FE883D84E00BCFF-1, importer_tag: binance_dex)",
+      "last": "2019-11-23 01:45:14 UTC | 354.0 RUNE -> 1.2567 BNB (fee: 0.00050268 BNB, txhash: 35FAA410682207EC0E73214D8FE883D84E00BCFF-9, importer_tag: binance_dex)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 8,
+    "first": "2019-10-08 23:58:50 UTC | 14.99146 BNB -> 18260.0 RUNE (fee: 0.00599658 BNB, txhash: 35FAA410682207EC0E73214D8FE883D84E00BCFF-1, importer_tag: binance_dex)",
+    "last": "2019-11-23 01:45:14 UTC | 354.0 RUNE -> 1.2567 BNB (fee: 0.00050268 BNB, txhash: 35FAA410682207EC0E73214D8FE883D84E00BCFF-9, importer_tag: binance_dex)"
+  },
+  "txn_with_net_worth": null,
+  "txn_with_desc": null
+}

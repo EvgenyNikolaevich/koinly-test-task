@@ -1,0 +1,740 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&endTime=1563408000000&limit=1000&offset=0&startTime=1555718400000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:59 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '57'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '215'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 a6a467c05228c5a9e108f9ce2f8f3c86.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - u4KNb2LzAr4jH3-pV0Tqq03GrDF7dYrcJ9YAErjb9A2VCnmQUGGJrQ==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:59 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&endTime=1571097600000&limit=1000&offset=0&startTime=1563408000000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:59 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '57'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '210'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 8415fbfe8b717c99d8a0b872dac2363c.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - LrZN7an1ICqrKhRixdexdcbJqyB-N9CvnXqRlq_-BBwy-ID-gfCNqw==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:00 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&endTime=1578787200000&limit=1000&offset=0&startTime=1571097600000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:00 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '542'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 6879fbb200387fd145e21133ac6fcec4.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - 04N8NP8QBW7cqEsslPSziJpytS53ss-qP6pZVUXZMtD1M5h25c0n7w==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[{"txHash":"DC7911158C8FBE7DB5CA7AF989CA27CD282A8D5F19B49E9AEE3336A1545F91CF","blockHeight":53245843,"txType":"TRANSFER","timeStamp":"2019-12-06T17:15:59.470Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":"bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23","value":"133.33677289","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":22872061,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"102941075","source":1,"sequence":83},{"txHash":"1605D9E5FBF239E7DE627E4DB28F86E10566ED275C89E23BE9D58E793E3A135A","blockHeight":53244840,"txType":"NEW_ORDER","timeStamp":"2019-12-06T17:09:22.035Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"60.75807828","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22872458,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-83","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00655003\",\"quantity\":\"9276\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-83\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":82},{"txHash":"83FE4B958635A866703AB747A5A78BF4E7DAC6CF6CF6A1B56BD01ABE4EE0617F","blockHeight":53244779,"txType":"CANCEL_ORDER","timeStamp":"2019-12-06T17:08:58.499Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":22872482,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"1861\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-81\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":81},{"txHash":"133E4D0D117E10DBAC3A165F9187CDA6D03CCF789AE022B56AA187E6D6AD3A90","blockHeight":53244397,"txType":"NEW_ORDER","timeStamp":"2019-12-06T17:06:30.254Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"13.02700000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22872630,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-81","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"1861\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-81\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":80},{"txHash":"B2007E79FEE3FB75143ED57890A2EA9755DD6AF05F4979D3B6674F811820DB0A","blockHeight":53242149,"txType":"NEW_ORDER","timeStamp":"2019-12-06T16:51:24.004Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"65.38620000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22873536,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-80","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0066\",\"quantity\":\"9907\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-80\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":79},{"txHash":"7CF562351D68C32B71CEBA57CDB53D41420243EBC863AFB5429362482DA598A2","blockHeight":53220433,"txType":"CANCEL_ORDER","timeStamp":"2019-12-06T14:27:22.831Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":22882178,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"20218\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-78\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":78},{"txHash":"E38DB435328F39D8EC1E69DCF4463B7DFFCBC73883D1CFF274DCBB35F475D09C","blockHeight":53218547,"txType":"NEW_ORDER","timeStamp":"2019-12-06T14:14:40.536Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"141.52600000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22882940,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-78","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"20218\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-78\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":77},{"txHash":"26180991A37D85ABF2A687C6434E60ACF3CECDF664861B312DBDBBBEC14D5A33","blockHeight":53195244,"txType":"CANCEL_ORDER","timeStamp":"2019-12-06T11:40:03.672Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":22892217,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"20218\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-76\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":76},{"txHash":"09DB1333273E9B37F615D63529651C731EA5E64ABA824CF864F89B40843712A6","blockHeight":53144510,"txType":"NEW_ORDER","timeStamp":"2019-12-06T06:03:10.315Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"141.52600000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22912430,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-76","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"20218\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-76\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":75},{"txHash":"70DDDEEC918384C5A8EC4D7DD8FC2E44732DD02570FB517A2BBFCE449F6B1A4A","blockHeight":53142199,"txType":"NEW_ORDER","timeStamp":"2019-12-06T05:48:07.950Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"129.52320000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22913332,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-75","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0064\",\"quantity\":\"20238\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-75\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":74},{"txHash":"DB75668D24CD89BD762AECB61AF165D4E31417A7C473FC4771B47D21E52C63A9","blockHeight":53066690,"txType":"NEW_ORDER","timeStamp":"2019-12-05T21:22:20.473Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"129.57100000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22943680,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-74","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0065\",\"quantity\":\"19934\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-74\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":73},{"txHash":"1842BBAD07861131C112A6D201A9CA2D68EA365FDA61011DE03C73768116CCCB","blockHeight":53047747,"txType":"NEW_ORDER","timeStamp":"2019-12-05T19:16:20.950Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"35.14800000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22951239,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-73","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.006\",\"quantity\":\"5858\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-73\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":72},{"txHash":"EA64406ADBF0E4C34EDAF4AA15B4605969780C1DFDC3425CD6546F8D3EC46FBF","blockHeight":53047682,"txType":"CANCEL_ORDER","timeStamp":"2019-12-05T19:15:54.026Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":22951266,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0058\",\"quantity\":\"6060\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-71\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":71},{"txHash":"E7A2AFBBCC91DC1A2B176CC9651C12436065C5D7DA9A84292A2B07AF64F32C5A","blockHeight":53046833,"txType":"NEW_ORDER","timeStamp":"2019-12-05T19:10:02.805Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"35.14800000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":22951618,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-71","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0058\",\"quantity\":\"6060\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-71\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":70},{"txHash":"417239D8FD4CE4AE6595E8B494E9105FDCDFB4590FE14287CDAA4CC55774D2A1","blockHeight":53046257,"txType":"NEW_ORDER","timeStamp":"2019-12-05T19:06:01.529Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"32.68100000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":22951859,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00055\",\"quantity\":\"59420\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":69},{"txHash":"7177BF3CA7B074B14057EB3D898510BACDE652FBED143407AD5A9574E8FC01B6","blockHeight":53045199,"txType":"CANCEL_ORDER","timeStamp":"2019-12-05T18:58:31.320Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":22952309,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00061492\",\"quantity\":\"60410\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-68\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":68},{"txHash":"11886D7F927484A483F8D4247A66BFD633987CC45A4CCDC8998DA12B260FCA86","blockHeight":53041727,"txType":"NEW_ORDER","timeStamp":"2019-12-05T18:35:37.916Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"37.14731720","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":22953682,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-68","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00061492\",\"quantity\":\"60410\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-68\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":67},{"txHash":"AD61DF37D76080F34186EE166FC67C4F487C60D709439EA560E8F2C0019E5459","blockHeight":53024501,"txType":"CANCEL_ORDER","timeStamp":"2019-12-05T16:40:37.821Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":22960583,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"13707\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-64\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":66},{"txHash":"5AB0D7DB64F4DCB2401FA7A48C5FFC87315F353BC2C85D44DFDE7E78DD0BB5BE","blockHeight":53019684,"txType":"CANCEL_ORDER","timeStamp":"2019-12-05T16:08:40.685Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":22962500,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00078\",\"quantity\":\"60410\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-63\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":65},{"txHash":"04C32DC3E6EA376F0F95A1A7C6DBF461A3054DA93F178988057C125FDEF911FC","blockHeight":52816236,"txType":"NEW_ORDER","timeStamp":"2019-12-04T17:31:11.173Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"2.15625000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23043949,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-65","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00575\",\"quantity\":\"375\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-65\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":64},{"txHash":"AB160CF0BD4DDFF4BB3BC77F801C323524CD4EDE33CAEB6258BF0607B68BE4AF","blockHeight":52810185,"txType":"NEW_ORDER","timeStamp":"2019-12-04T16:50:07.849Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"95.94900000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23046412,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-64","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.007\",\"quantity\":\"13707\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-64\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":63},{"txHash":"09FC2BA20DD6A40330EF87620293DDB5B53B9D965D8A57409C8DBA765227F98A","blockHeight":52808945,"txType":"NEW_ORDER","timeStamp":"2019-12-04T16:41:29.691Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"47.11980000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23046931,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-63","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00078\",\"quantity\":\"60410\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-63\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":62},{"txHash":"24DD61DCA1C5EEECD3F807346A7FC4F2B7E96FFFC7D960E2F988ED3B992DF9B1","blockHeight":52808412,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:37:40.645Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047160,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0008\",\"quantity\":\"11400\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-34\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":61},{"txHash":"10E9BBB59A3AAD1853F451B73DD302093E1F2C19179626C1CDE7EB0BB00E6EFA","blockHeight":52808399,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:37:35.040Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047165,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00075512\",\"quantity\":\"3230\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-37\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":60},{"txHash":"122B2551F528E7D9B7C1ECB6097748F5838A9A0BC21E6C5569FB21D9D2F18420","blockHeight":52808385,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:37:28.928Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047171,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00079\",\"quantity\":\"18680\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-40\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":59},{"txHash":"5ACF812E6C86B800957C25A5BCA00AD2F522535732D274DBD8ACBA831D7FFF76","blockHeight":52808369,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:37:21.969Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047178,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00079822\",\"quantity\":\"15220\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-45\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":58},{"txHash":"86B9763A00766BA13748C9E5916F600B3FC2CD8BB49B0E61B71A6CA37FC1D478","blockHeight":52808355,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:37:15.768Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047185,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00076\",\"quantity\":\"1000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-47\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":57},{"txHash":"A9E7FDD91A97993DA7D60CDE8DDD7D7B4E6E14AC92130AE1549129CE28E8F7B6","blockHeight":52808341,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:37:09.727Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047191,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00077\",\"quantity\":\"7230\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-48\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":56},{"txHash":"23F5019CDF3A2A85DD4D2AC8FB77EF7418E30B67AE33A58EDB458386B985703F","blockHeight":52808326,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:37:03.137Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047197,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00072619\",\"quantity\":\"1110\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-51\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":55},{"txHash":"57C44866574B6F6C4B8DE8742557A1460E2599054F585D8ED2BC324DBC381982","blockHeight":52808304,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:36:53.481Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047207,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00077\",\"quantity\":\"1220\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-52\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":54},{"txHash":"FC28D44F445C1CBCC5BDC601294A01060A6319FB4DAD5D79C37F4949CE1064A2","blockHeight":52808282,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T16:36:43.435Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23047217,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00078\",\"quantity\":\"1320\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-53\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":53},{"txHash":"D89CDAE34206DBC5FD81D6384E6D2A923C3F6C43214770CA383CC5490162090D","blockHeight":52778181,"txType":"NEW_ORDER","timeStamp":"2019-12-04T13:17:10.515Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"1.02960000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23059190,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-53","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00078\",\"quantity\":\"1320\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-53\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":52},{"txHash":"C008862B6A69827AC41D0A353006FF0844713A6ECB5FEC12850D71DEBFCC2DA2","blockHeight":52775073,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:56:10.959Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.93940000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23060449,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-52","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00077\",\"quantity\":\"1220\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-52\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":51},{"txHash":"D563393EFE80FF20C8A00C456F04B800FC701F17C68EA85745425DFCA4F8A7C0","blockHeight":52774808,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:54:17.913Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.80607090","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23060562,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-51","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00072619\",\"quantity\":\"1110\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-51\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":50},{"txHash":"5E86FD3AB68648460ECE0C0824D18DF9C8A07A116596AFBDED03879F7CF99D36","blockHeight":52774637,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:53:05.645Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.80129790","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23060635,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-50","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00072189\",\"quantity\":\"1110\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-50\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":49},{"txHash":"44A77116B271F58B71735060D10F19A4DC0FA0E96A883AAA350DC562799ED4A1","blockHeight":52774440,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:51:42.817Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.80129790","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23060718,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-49","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00072189\",\"quantity\":\"1110\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-49\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":48},{"txHash":"DE95FCA1CA170CA2AEB661161E4263F6FBE0458BA202C92799EC54EA9B69C6AB","blockHeight":52773463,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:45:01.143Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"5.56710000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061119,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-48","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00077\",\"quantity\":\"7230\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-48\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":47},{"txHash":"5C807C96C020D206B39775ECEB66CE78E57FA24195EEA4C2A795F97165228B4F","blockHeight":52772600,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:39:19.083Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.76000000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061461,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-47","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00076\",\"quantity\":\"1000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-47\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":46},{"txHash":"0845C7CF50FC4EC804191C3462035D8F5C830B02BBDD4C177488378F9A15DB88","blockHeight":52772515,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:38:46.027Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.74215000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061494,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-46","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00074215\",\"quantity\":\"1000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-46\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":45},{"txHash":"6C9321C07E896EA819EADFF6440B34A865F3C155482274C77353F82CCFA01AD0","blockHeight":52772368,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:37:48.822Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"12.14890840","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061552,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-45","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00079822\",\"quantity\":\"15220\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-45\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":44},{"txHash":"3C6DEF9E2648CC53672077A14BC9B3E3C6A69127FBF35B8CF96E6472BB86ABB9","blockHeight":52772295,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:37:20.857Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"3.64045000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061579,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-44","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00072809\",\"quantity\":\"5000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-44\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":43},{"txHash":"BA1C03ABD463A3092582B24B0D3B3B5DB1FE190498F5ABF62DD28D30D3B2D829","blockHeight":52772209,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:36:47.702Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.72809000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061613,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-43","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00072809\",\"quantity\":\"1000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-43\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":42},{"txHash":"83C348FBDBEF6BFA46DA4B09A44110FC4C32C762E6119E9CE3D96529C4373E57","blockHeight":52772161,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:36:29.283Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"0.72809000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061631,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-42","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00072809\",\"quantity\":\"1000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-42\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":41},{"txHash":"C5419334FB09153D4FF49D6FD576EF6DC1C270807AEF74BA4F2903EC5C15B4E6","blockHeight":52771987,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:35:22.996Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"14.43780000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061697,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00072189\",\"quantity\":\"20000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":40},{"txHash":"F938051A52ECFB799C9F4BAA44F269701B0FEF8CABCF4EC06877BE82B958A37F","blockHeight":52771894,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:34:47.577Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"14.75720000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061733,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-40","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00079\",\"quantity\":\"18680\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-40\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":39},{"txHash":"05D7C2CCBA64881812F6CB61D61AD19E06D2FF4F029866A4D11F93749C1398F0","blockHeight":52771754,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:33:54.083Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"14.26880000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061786,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00071344\",\"quantity\":\"20000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":38},{"txHash":"5674AA83708391DCC6B52449C443EB22B4A1E3D3D012C91ED9286EE9CFCA9945","blockHeight":52771609,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T12:32:57.769Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23061843,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.000686\",\"quantity\":\"10000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-36\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":37},{"txHash":"1875E1C4B2BB125B21BBC8C8E3C9374EE80BCDE0A54A96291CFD828C2BF63A23","blockHeight":52771528,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:32:27.274Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"2.43903760","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061873,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-37","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00075512\",\"quantity\":\"3230\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-37\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":36},{"txHash":"2BA6156D39A063962AD5F08B8381A314916B8DF06A8B086CA046D97868A2B12C","blockHeight":52771383,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:31:32.727Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"6.86000000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23061928,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-36","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.000686\",\"quantity\":\"10000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-36\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":35},{"txHash":"D46FC389FC513E6F80059EF69321617CBF374CAAA9CB9710267523FC18D69774","blockHeight":52771002,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T12:29:09.860Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23062070,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.000687\",\"quantity\":\"10000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-33\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":34},{"txHash":"D81FEEF0FC9100C5377B3D6315F2AC4637081CC47D4A0762DF702AD3DCD34ED7","blockHeight":52770864,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:28:18.578Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"9.12000000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23062122,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-34","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0008\",\"quantity\":\"11400\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-34\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":33},{"txHash":"F4EDFFC5BD3B881C9237769ACE2EC71075B8C7EC2BF69D54ECE5260FFC040B89","blockHeight":52770695,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:27:15.718Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"6.87000000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23062185,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-33","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.000687\",\"quantity\":\"10000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-33\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":32},{"txHash":"5F75F3E73506B08914C7FCF300C29BF13F92DFE4E876640542E14CFAAFB088EF","blockHeight":52770598,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T12:26:39.706Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23062221,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00068324\",\"quantity\":\"30000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-31\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":31},{"txHash":"E0FBEF792D82E479FE77F9E4FA481102124DFA37F0EC0A6A2139AA6430A839DB","blockHeight":52770378,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:25:17.976Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"20.49720000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23062302,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-31","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00068324\",\"quantity\":\"30000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-31\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":30},{"txHash":"6ECECB250BDB30620FD2E9E24E5502D32BE71240FB6D85DDF1A2DDAD58CD8F7E","blockHeight":52770311,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T12:24:52.920Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23062327,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00067332\",\"quantity\":\"30000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-29\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":29},{"txHash":"CB878EB799D60336B79D1120E4CA2233094904AE7A2108B4E45A0D0C5F4CF19A","blockHeight":52770046,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:23:15.060Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"20.19960000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23062425,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-29","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00067332\",\"quantity\":\"30000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-29\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":28},{"txHash":"4D4F83AD9B53C47B4271582F3CA4CB41F58DB8607E3ACF1C655D012034BFEAC1","blockHeight":52769966,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T12:22:43.301Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23062457,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00066375\",\"quantity\":\"30000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-27\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":27},{"txHash":"4CED57D882253936648CCD7D38841DC2C73267D841DA7EA807437BFA74AAC1A0","blockHeight":52769829,"txType":"NEW_ORDER","timeStamp":"2019-12-04T12:21:43.917Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"19.91250000","txAsset":"UND-EBC","txFee":"0.00000000","proposalId":null,"txAge":23062516,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-27","code":0,"data":"{\"orderData\":{\"symbol\":\"UND-EBC_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00066375\",\"quantity\":\"30000\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-27\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":26},{"txHash":"D8F197CDE3069F83EF5D2487BC17F35FD963EA314E1819F9C85AA0EC034AA65A","blockHeight":52769667,"txType":"CANCEL_ORDER","timeStamp":"2019-12-04T12:20:33.515Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23062587,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"NEXO-A84_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.006\",\"quantity\":\"7500\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-21\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":25},{"txHash":"8811D5D64B7D4035EB7460BEB7A620C2D15D42EB81CE69BD811F6A2BB6C9FA35","blockHeight":52630297,"txType":"NEW_ORDER","timeStamp":"2019-12-03T20:44:34.600Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"64.14600000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23118746,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-25","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.006\",\"quantity\":\"10691\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-25\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":24},{"txHash":"928AACC8B6A19008A505DDAAB201B1AE9A4254A63472E8489212921B24E5F558","blockHeight":52629776,"txType":"CANCEL_ORDER","timeStamp":"2019-12-03T20:41:18.266Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23118942,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0058\",\"quantity\":\"3301\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-20\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":23},{"txHash":"18F50CB80ABC2E7D60872AC91F0B2C7C4453BAA3B8737461C5E46196DD889BB6","blockHeight":52629740,"txType":"CANCEL_ORDER","timeStamp":"2019-12-03T20:41:04.392Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23118956,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00569\",\"quantity\":\"7908\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-22\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":22},{"txHash":"BDB9DE5A3503DC86511B23DB4B2B097F12A0050D6C764C588BCA536A347CACD8","blockHeight":52604443,"txType":"NEW_ORDER","timeStamp":"2019-12-03T17:49:58.799Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"44.99652000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23129222,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-22","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00569\",\"quantity\":\"7908\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-22\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":21},{"txHash":"2F8B79B33E99BF90C0B47E57E4FC598EF8CB0364D9A7EED463461F00084262AD","blockHeight":52603835,"txType":"NEW_ORDER","timeStamp":"2019-12-03T17:45:47.586Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"45.00000000","txAsset":"NEXO-A84","txFee":"0.00000000","proposalId":null,"txAge":23129473,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-21","code":0,"data":"{\"orderData\":{\"symbol\":\"NEXO-A84_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.006\",\"quantity\":\"7500\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-21\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":20},{"txHash":"D3968C7971E8AB988C53999F38E357841FCFC790AF487350A0AED35B29F900B4","blockHeight":52603188,"txType":"TRANSFER","timeStamp":"2019-12-03T17:41:18.086Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","value":"89.99900000","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":23129742,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":0,"sequence":427536},{"txHash":"842CB2B2DEBE1820E2E06241771F495454A27A023ACDB483C0B9B393EE9BB85D","blockHeight":52596972,"txType":"NEW_ORDER","timeStamp":"2019-12-03T16:59:24.384Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"19.14580000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23132256,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-20","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0058\",\"quantity\":\"3301\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-20\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":19},{"txHash":"912E16924D4DFB3395DC2B81E1DE8DA2B97B969DE3ACCFDD6E2067E164443223","blockHeight":52583079,"txType":"CANCEL_ORDER","timeStamp":"2019-12-03T15:25:51.813Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23137869,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"NEXO-A84_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0051\",\"quantity\":\"3754\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-18\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":18},{"txHash":"1B4EEC3DA93A0FFF26F037FD2572DA0A88CC169259C12D0EB2CB7671A894FB07","blockHeight":52367814,"txType":"NEW_ORDER","timeStamp":"2019-12-02T15:20:36.919Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"19.14540000","txAsset":"NEXO-A84","txFee":"0.00000000","proposalId":null,"txAge":23224583,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-18","code":0,"data":"{\"orderData\":{\"symbol\":\"NEXO-A84_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0051\",\"quantity\":\"3754\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-18\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":17},{"txHash":"B6B892E093E4F5E6CD99DAEBF66E8BC2F64C656CBED3A5343FBE235DB2AEBB20","blockHeight":52367718,"txType":"CANCEL_ORDER","timeStamp":"2019-12-02T15:19:56.650Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23224624,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"NEXO-A84_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0063\",\"quantity\":\"761\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-16\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":16},{"txHash":"2CDFA5F3A778EDEF5E0657EAF015208B2B688FD7088191AE0AAF89B90E8630F6","blockHeight":52366802,"txType":"NEW_ORDER","timeStamp":"2019-12-02T15:13:32.433Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"4.79430000","txAsset":"NEXO-A84","txFee":"0.00000000","proposalId":null,"txAge":23225008,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-16","code":0,"data":"{\"orderData\":{\"symbol\":\"NEXO-A84_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0063\",\"quantity\":\"761\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-16\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":15},{"txHash":"934DB9D76E8515AAF881C43817D65EF5FFEAABE4B5B7B5B4E5F94F779759FE34","blockHeight":52207915,"txType":"CANCEL_ORDER","timeStamp":"2019-12-01T21:26:30.544Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23289030,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0072\",\"quantity\":\"3027\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-11\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":14},{"txHash":"62D40FE6C9F13C8C89D5F965F1C692ECF7AE27059E0C78B92E88266861E9BBAF","blockHeight":52193002,"txType":"NEW_ORDER","timeStamp":"2019-12-01T19:45:55.729Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"3.54060000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23295065,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-14","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0063\",\"quantity\":\"562\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-14\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":13},{"txHash":"DD5723FADB936755FC0E49696F79F3774F3A297AD9BA07B6A53903CE431313A0","blockHeight":52192151,"txType":"NEW_ORDER","timeStamp":"2019-12-01T19:40:20.999Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"10.61546630","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23295399,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-13","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00629998\",\"quantity\":\"1685\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-13\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":12},{"txHash":"8018823640A54269482E214FD8FA27A4E3499E724DD164674CFD58410F5AA114","blockHeight":52190123,"txType":"NEW_ORDER","timeStamp":"2019-12-01T19:27:34.396Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"4.99840000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23296166,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-12","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0064\",\"quantity\":\"781\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-12\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":11},{"txHash":"CC2DF42A079E027E243564B931A2BCE86C2B22813A2C70E7E98F8F53E25099C2","blockHeight":52189741,"txType":"NEW_ORDER","timeStamp":"2019-12-01T19:24:57.090Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"21.79440000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23296323,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-11","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0072\",\"quantity\":\"3027\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-11\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":10},{"txHash":"5BA08B2FCD9D85213922F382DA2E7B2BE297FE3F89F56E00BF53C92571DE6653","blockHeight":52115667,"txType":"NEW_ORDER","timeStamp":"2019-12-01T11:05:23.911Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"7.30263195","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23326296,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-10","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00628995\",\"quantity\":\"1161\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-10\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":9},{"txHash":"116CCA88B34DB51055A196ACCA17557E608A7407C63B0FDFDBA44D9A7B4902BF","blockHeight":52115522,"txType":"CANCEL_ORDER","timeStamp":"2019-12-01T11:04:17.710Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23326363,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0061\",\"quantity\":\"1197\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-8\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":8},{"txHash":"B4FA4048C69A26643CD8780AFE1DACFC4752AF26DF46722DC8323F4AACC1E9A0","blockHeight":52115476,"txType":"NEW_ORDER","timeStamp":"2019-12-01T11:03:55.982Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"7.30170000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23326384,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-8","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0061\",\"quantity\":\"1197\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-8\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":7},{"txHash":"2153A511F3BEF3EE25B420496E9539CC80D3C5363FC54BD300AF7AE1B45E7F93","blockHeight":52115429,"txType":"CANCEL_ORDER","timeStamp":"2019-12-01T11:03:35.578Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23326405,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0061\",\"quantity\":\"1197\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-6\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":6},{"txHash":"D96B5DDCACF68D066F7E63512D84FC18065AFFBE42D2C12080FC1E656476D77A","blockHeight":52115029,"txType":"NEW_ORDER","timeStamp":"2019-12-01T11:00:43.047Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"7.30170000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23326577,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-6","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.0061\",\"quantity\":\"1197\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-6\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":5},{"txHash":"5826CCFAA7458AD0669D849189361A91720317BA6AB4CE9B38F1FB49FD97C6B7","blockHeight":52114953,"txType":"CANCEL_ORDER","timeStamp":"2019-12-01T11:00:10.645Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23326610,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00600897\",\"quantity\":\"4586\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-4\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":4},{"txHash":"98A59671942580B1CD813E3B524B6F0DCFFA30BE0F2BD206F31B130C72F3AB02","blockHeight":52114206,"txType":"NEW_ORDER","timeStamp":"2019-12-01T10:54:56.513Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"27.55713642","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23326924,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-4","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00600897\",\"quantity\":\"4586\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-4\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":3},{"txHash":"7F5849C879C7E55AC6F26AE57BC7A7BC91A44002CDFD58198052A099252CAC3A","blockHeight":52114064,"txType":"NEW_ORDER","timeStamp":"2019-12-01T10:53:58.215Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"9.18170616","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23326982,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-3","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.00600897\",\"quantity\":\"1528\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-3\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":2},{"txHash":"4FA8000E3BC4CF63B15D587A8C605AE541234E07DCC11260B826C0AF21ABC085","blockHeight":52114013,"txType":"CANCEL_ORDER","timeStamp":"2019-12-01T10:53:37.226Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":23327003,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.005891\",\"quantity\":\"6237\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-1\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":1},{"txHash":"376C47E1BDC40966C3F863FEC47602684DAF8714FCD8058C9AEF0F55E23FCBAA","blockHeight":52113859,"txType":"NEW_ORDER","timeStamp":"2019-12-01T10:52:34.288Z","fromAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","toAddr":null,"value":"36.74216700","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":23327066,"orderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-1","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.005891\",\"quantity\":\"6237\",\"timeInForce\":\"GTE\",\"orderId\":\"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-1\"}}","confirmBlocks":0,"memo":"","source":1,"sequence":0},{"txHash":"3B652875685DB051F62A5C696D6B1FF5498B8D68D87254B8CF9381BB7F0CA286","blockHeight":52109860,"txType":"TRANSFER","timeStamp":"2019-12-01T10:26:51.188Z","fromAddr":"bnb14spch0j94ya2w3fe49uf3lw9ee7vfwp8q5jups","toAddr":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","value":"36.74521940","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":23328609,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":0,"sequence":52}],"total":86}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:01 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&endTime=1583672400000&limit=1000&offset=0&startTime=1578787200000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:02 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '180'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 ee02e70271d8d415c4d901a8c7413c45.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - xCB3C_IGCabvnRnQF3DT4-IOYDAoG0ptFIws9EC0sihDJBTybkRkYg==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:02 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&end=1563408000000&limit=1000&offset=0&start=1555718400000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:02 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '21'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 8415fbfe8b717c99d8a0b872dac2363c.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - iOvMxAIb1liO_EuE8hJuAhev5ETtvIoSjkWRYECgVtadn6PJ3QMmjw==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:02 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&end=1571097600000&limit=1000&offset=0&start=1563408000000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:02 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '31'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 b00e2ac7dca27f16332539a2707ffb37.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - StqwVsK3Hy0Dz7-e-VNOsc1E3oFoAUrzEvNkm-q79zH_fgBs9HD7UQ==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:02 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&end=1578787200000&limit=1000&offset=0&start=1571097600000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:03 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '88'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 5eac89c80c43223e9da095b517da9acf.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - 7l5Exwn6uDNvofhmi3mETKg_M1MM9DaCfzvoWXfYFMhtbkpG2c3KAw==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[{"tradeId":"53244840-0","blockHeight":53244840,"symbol":"RUNE-B1A_BNB","price":"0.00655003","quantity":"9276.00000000","buyerOrderId":"2C3ACBDA0A3DA42FCE4AC4D6750BC371C0BFC176-64587","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-83","buyerSource":0,"sellerSource":1,"buyerId":"bnb19savhks28kjzlnj2cnt82z7rw8qtlstkp8xnfr","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.02430323;","sellFee":"BNB:0.02430323;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.02430323;","sellSingleFee":"BNB:0.02430323;","tickType":"SellTaker","time":1575652162035},{"tradeId":"53244397-0","blockHeight":53244397,"symbol":"RUNE-B1A_BNB","price":"0.00700000","quantity":"1035.00000000","buyerOrderId":"DFD96C02D383851D1E972CBBBEF972FBB8B6BAF8-100","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-81","buyerSource":2,"sellerSource":1,"buyerId":"bnb1mlvkcqknswz3685h9jama7tjlwutdwhcgxh74a","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00289800;","sellFee":"BNB:0.00289800;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00289800;","sellSingleFee":"BNB:0.00289800;","tickType":"SellTaker","time":1575651990254},{"tradeId":"53242149-0","blockHeight":53242149,"symbol":"RUNE-B1A_BNB","price":"0.00660000","quantity":"9907.00000000","buyerOrderId":"FDF9E321262D9C74C0EC7F7830E91076C431F8DF-1761","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-80","buyerSource":1,"sellerSource":1,"buyerId":"bnb1lhu7xgfx9kw8fs8v0aurp6gswmzrr7xlzduqxl","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"RUNE-B1A:9.90700000;","sellFee":"BNB:0.02615448;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:9.90700000;","sellSingleFee":"BNB:0.02615448;","tickType":"SellTaker","time":1575651084004},{"tradeId":"53142302-0","blockHeight":53142302,"symbol":"RUNE-B1A_BNB","price":"0.00640000","quantity":"20238.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-75","sellerOrderId":"55BC70270E8FAA61F9A0439748119C7D2EBDA3C1-1116","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb12k78qfcw374xr7dqgwt5syvu05htmg7pspaxau","buyFee":"RUNE-B1A:20.23800000;","sellFee":"BNB:0.05180928;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:20.23800000;","sellSingleFee":"BNB:0.05180928;","tickType":"SellTaker","time":1575611328708},{"tradeId":"53107789-5","blockHeight":53107789,"symbol":"RUNE-B1A_BNB","price":"0.00650000","quantity":"19934.00000000","buyerOrderId":"8EC315F30AE80D5BFDB0230997425DDD71F833D0-6","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-74","buyerSource":1,"sellerSource":1,"buyerId":"bnb13mp3tuc2aqx4hldsyvyewsjam4clsv7s3qkk6x","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.26609971;","sellFee":"BNB:0.05182840;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.05182840;","sellSingleFee":"BNB:0.05182840;","tickType":"BuyTaker","time":1575597585391},{"tradeId":"53047747-0","blockHeight":53047747,"symbol":"RUNE-B1A_BNB","price":"0.00600000","quantity":"5858.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-73","sellerOrderId":"C97ACECB4AA855B57797336B5940174A4CC09E41-155","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1e9avaj624p2m2auhxd44jsqhffxvp8jpcvf8rz","buyFee":"RUNE-B1A:5.85800000;","sellFee":"BNB:0.01405920;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:5.85800000;","sellSingleFee":"BNB:0.01405920;","tickType":"BuyTaker","time":1575573380950},{"tradeId":"53046452-0","blockHeight":53046452,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"230.00000000","buyerOrderId":"2257DCEF5348C75889214538AD09A97BEADD3831-12235","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":1,"sellerSource":1,"buyerId":"bnb1yftaem6nfrr43zfpg5u26zdf004d6wp3fea6gs","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00005060;","sellFee":"BNB:0.00005060;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00005060;","sellSingleFee":"BNB:0.00005060;","tickType":"BuyTaker","time":1575572844836},{"tradeId":"53046443-0","blockHeight":53046443,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1650.00000000","buyerOrderId":"049819A7B82F90C6FC4C6AAF923DFDB26FD34956-2047","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb1qjvpnfac97gvdlzvd2hey00akfhaxj2ks55c4g","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00036300;","sellFee":"BNB:0.00036300;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00036300;","sellSingleFee":"BNB:0.00036300;","tickType":"BuyTaker","time":1575572841066},{"tradeId":"53046431-0","blockHeight":53046431,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1800.00000000","buyerOrderId":"2257DCEF5348C75889214538AD09A97BEADD3831-12233","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":1,"sellerSource":1,"buyerId":"bnb1yftaem6nfrr43zfpg5u26zdf004d6wp3fea6gs","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00039600;","sellFee":"BNB:0.00039600;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00039600;","sellSingleFee":"BNB:0.00039600;","tickType":"BuyTaker","time":1575572835811},{"tradeId":"53046404-0","blockHeight":53046404,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1800.00000000","buyerOrderId":"2257DCEF5348C75889214538AD09A97BEADD3831-12231","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":1,"sellerSource":1,"buyerId":"bnb1yftaem6nfrr43zfpg5u26zdf004d6wp3fea6gs","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00039600;","sellFee":"BNB:0.00039600;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00039600;","sellSingleFee":"BNB:0.00039600;","tickType":"BuyTaker","time":1575572824380},{"tradeId":"53046400-0","blockHeight":53046400,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1570.00000000","buyerOrderId":"049819A7B82F90C6FC4C6AAF923DFDB26FD34956-2045","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb1qjvpnfac97gvdlzvd2hey00akfhaxj2ks55c4g","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00034540;","sellFee":"BNB:0.00034540;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00034540;","sellSingleFee":"BNB:0.00034540;","tickType":"BuyTaker","time":1575572822591},{"tradeId":"53046354-0","blockHeight":53046354,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1560.00000000","buyerOrderId":"049819A7B82F90C6FC4C6AAF923DFDB26FD34956-2043","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb1qjvpnfac97gvdlzvd2hey00akfhaxj2ks55c4g","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00034320;","sellFee":"BNB:0.00034320;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00034320;","sellSingleFee":"BNB:0.00034320;","tickType":"BuyTaker","time":1575572802886},{"tradeId":"53046333-0","blockHeight":53046333,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1810.00000000","buyerOrderId":"2257DCEF5348C75889214538AD09A97BEADD3831-12227","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":1,"sellerSource":1,"buyerId":"bnb1yftaem6nfrr43zfpg5u26zdf004d6wp3fea6gs","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00039820;","sellFee":"BNB:0.00039820;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00039820;","sellSingleFee":"BNB:0.00039820;","tickType":"BuyTaker","time":1575572793854},{"tradeId":"53046306-1","blockHeight":53046306,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1590.00000000","buyerOrderId":"049819A7B82F90C6FC4C6AAF923DFDB26FD34956-2041","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb1qjvpnfac97gvdlzvd2hey00akfhaxj2ks55c4g","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00034980;","sellFee":"BNB:0.00034980;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00034980;","sellSingleFee":"BNB:0.00034980;","tickType":"BuyTaker","time":1575572782408},{"tradeId":"53046260-1","blockHeight":53046260,"symbol":"UND-EBC_BNB","price":"0.00055000","quantity":"1680.00000000","buyerOrderId":"049819A7B82F90C6FC4C6AAF923DFDB26FD34956-2039","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb1qjvpnfac97gvdlzvd2hey00akfhaxj2ks55c4g","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00036960;","sellFee":"BNB:0.00036960;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00036960;","sellSingleFee":"BNB:0.00036960;","tickType":"BuyTaker","time":1575572762913},{"tradeId":"53046257-14","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00055239","quantity":"50.00000000","buyerOrderId":"7DAFB95D0288C3C39212B8C954C0EB518104E7EE-347","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":1,"sellerSource":1,"buyerId":"bnb10khmjhgz3rpu8ysjhry4fs8t2xqsfelwjwvann","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00001104;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00001104;","sellSingleFee":"BNB:0.00001104;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-13","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00056909","quantity":"2830.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827565","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00064420;","sellSingleFee":"BNB:0.00064420;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-12","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00057617","quantity":"510.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827612","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00011753;","sellSingleFee":"BNB:0.00011753;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-11","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00058175","quantity":"4260.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827693","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00099130;","sellSingleFee":"BNB:0.00099130;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-10","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00058591","quantity":"4420.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827653","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00103588;","sellSingleFee":"BNB:0.00103588;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-9","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00058700","quantity":"7060.00000000","buyerOrderId":"0381D3BE68277CEC4B4C65B9E210F4F85F66D566-3550","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":2,"sellerSource":1,"buyerId":"bnb1qwqa80ngya7wcj6vvku7yy85lp0kd4txqprzag","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00165768;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00165768;","sellSingleFee":"BNB:0.00165768;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-8","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00058755","quantity":"2770.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827603","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00065100;","sellSingleFee":"BNB:0.00065100;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-7","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00059229","quantity":"3640.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827669","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00086237;","sellSingleFee":"BNB:0.00086237;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-6","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00059271","quantity":"2710.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827563","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00064249;","sellSingleFee":"BNB:0.00064249;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-5","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00059440","quantity":"4940.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827525","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00117453;","sellSingleFee":"BNB:0.00117453;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-4","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00059585","quantity":"3000.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827692","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00071502;","sellSingleFee":"BNB:0.00071502;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-3","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00059631","quantity":"1880.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827652","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00044842;","sellSingleFee":"BNB:0.00044842;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-2","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00060385","quantity":"1710.00000000","buyerOrderId":"38D4CAE8CA2AFD289262DF1316A4D370EF85AC53-82980","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb18r2v46x29t7j3ynzmuf3dfxnwrhcttznselxrm","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00041303;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00041303;","sellSingleFee":"BNB:0.00041303;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-1","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00060580","quantity":"3710.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827691","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00089900;","sellSingleFee":"BNB:0.00089900;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53046257-0","blockHeight":53046257,"symbol":"UND-EBC_BNB","price":"0.00060719","quantity":"2240.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827668","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-70","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00872578;","sellFee":"BNB:0.01080753;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00054404;","sellSingleFee":"BNB:0.00054404;","tickType":"SellTaker","time":1575572761529},{"tradeId":"53041727-1","blockHeight":53041727,"symbol":"UND-EBC_BNB","price":"0.00061492","quantity":"990.00000000","buyerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-827651","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-68","buyerSource":0,"sellerSource":1,"buyerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00024350;","sellFee":"BNB:0.00024350;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00024350;","sellSingleFee":"BNB:0.00024350;","tickType":"SellTaker","time":1575570937916},{"tradeId":"52816236-0","blockHeight":52816236,"symbol":"RUNE-B1A_BNB","price":"0.00575000","quantity":"375.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-65","sellerOrderId":"A386B138F1D47A425AD23BE36CBC84AF790C88BF-5","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb15wrtzw8363ayykkj803ke0yy4ausez9laeqfpm","buyFee":"BNB:0.00086250;","sellFee":"BNB:0.00086250;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00086250;","sellSingleFee":"BNB:0.00086250;","tickType":"BuyTaker","time":1575480671173},{"tradeId":"52777794-0","blockHeight":52777794,"symbol":"UND-EBC_BNB","price":"0.00071344","quantity":"1320.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39","sellerOrderId":"74BABF9A0603E828E01B7488BF08036B22F7DFFB-236","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1wjatlxsxq05z3cqmwjyt7zqrdv300hlmjee3j4","buyFee":"BNB:0.00037669;","sellFee":"BNB:0.00037669;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00037669;","sellSingleFee":"BNB:0.00037669;","tickType":"SellTaker","time":1575465279620},{"tradeId":"52775005-0","blockHeight":52775005,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"1220.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823958","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00035228;","sellFee":"BNB:0.00035228;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00035228;","sellSingleFee":"BNB:0.00035228;","tickType":"SellTaker","time":1575464141791},{"tradeId":"52774637-0","blockHeight":52774637,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"1110.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-50","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00064102;","sellFee":"BNB:0.00064102;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00032051;","sellSingleFee":"BNB:0.00032051;","tickType":"SellTaker","time":1575463985645},{"tradeId":"52774440-1","blockHeight":52774440,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"1110.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-49","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00064102;","sellFee":"BNB:0.00064102;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00032051;","sellSingleFee":"BNB:0.00032051;","tickType":"SellTaker","time":1575463902817},{"tradeId":"52773472-0","blockHeight":52773472,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"1110.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1684","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00032051;","sellFee":"BNB:0.00032051;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00032051;","sellSingleFee":"BNB:0.00032051;","tickType":"SellTaker","time":1575463505031},{"tradeId":"52773381-0","blockHeight":52773381,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"2830.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1682","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00081717;","sellFee":"BNB:0.00081717;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00081717;","sellSingleFee":"BNB:0.00081717;","tickType":"SellTaker","time":1575463468089},{"tradeId":"52772886-1","blockHeight":52772886,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"3730.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823935","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00127217;","sellFee":"BNB:0.00127217;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00107705;","sellSingleFee":"BNB:0.00107705;","tickType":"SellTaker","time":1575463270992},{"tradeId":"52772886-0","blockHeight":52772886,"symbol":"UND-EBC_BNB","price":"0.00072809","quantity":"670.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-44","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823935","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00127217;","sellFee":"BNB:0.00127217;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00019512;","sellSingleFee":"BNB:0.00019512;","tickType":"SellTaker","time":1575463270992},{"tradeId":"52772515-0","blockHeight":52772515,"symbol":"UND-EBC_BNB","price":"0.00074215","quantity":"1000.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-46","sellerOrderId":"38D4CAE8CA2AFD289262DF1316A4D370EF85AC53-75469","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb18r2v46x29t7j3ynzmuf3dfxnwrhcttznselxrm","buyFee":"BNB:0.00029686;","sellFee":"BNB:0.00029686;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00029686;","sellSingleFee":"BNB:0.00029686;","tickType":"BuyTaker","time":1575463126027},{"tradeId":"52772333-2","blockHeight":52772333,"symbol":"UND-EBC_BNB","price":"0.00072809","quantity":"1380.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-44","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1680","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00040190;","sellFee":"BNB:0.00040190;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00040190;","sellSingleFee":"BNB:0.00040190;","tickType":"SellTaker","time":1575463055362},{"tradeId":"52772297-1","blockHeight":52772297,"symbol":"UND-EBC_BNB","price":"0.00072809","quantity":"2780.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-44","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1678","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00080963;","sellFee":"BNB:0.00080963;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00080963;","sellSingleFee":"BNB:0.00080963;","tickType":"SellTaker","time":1575463041554},{"tradeId":"52772295-1","blockHeight":52772295,"symbol":"UND-EBC_BNB","price":"0.00072809","quantity":"170.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-44","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823846","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00004951;","sellFee":"BNB:0.00004951;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00004951;","sellSingleFee":"BNB:0.00004951;","tickType":"BuyTaker","time":1575463040857},{"tradeId":"52772209-0","blockHeight":52772209,"symbol":"UND-EBC_BNB","price":"0.00072809","quantity":"1000.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-43","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823846","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00029123;","sellFee":"BNB:0.00029123;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00029123;","sellSingleFee":"BNB:0.00029123;","tickType":"BuyTaker","time":1575463007702},{"tradeId":"52772161-0","blockHeight":52772161,"symbol":"UND-EBC_BNB","price":"0.00072809","quantity":"1000.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-42","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823846","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00029123;","sellFee":"BNB:0.00029123;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00029123;","sellSingleFee":"BNB:0.00029123;","tickType":"BuyTaker","time":1575462989283},{"tradeId":"52772017-1","blockHeight":52772017,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"2790.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1676","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00080562;","sellFee":"BNB:0.00080562;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00080562;","sellSingleFee":"BNB:0.00080562;","tickType":"SellTaker","time":1575462934276},{"tradeId":"52771989-1","blockHeight":52771989,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"2790.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1674","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00080562;","sellFee":"BNB:0.00080562;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00080562;","sellSingleFee":"BNB:0.00080562;","tickType":"SellTaker","time":1575462923700},{"tradeId":"52771987-1","blockHeight":52771987,"symbol":"UND-EBC_BNB","price":"0.00072189","quantity":"2810.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823796","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00095507;","sellFee":"BNB:0.00095507;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00081140;","sellSingleFee":"BNB:0.00081140;","tickType":"BuyTaker","time":1575462922996},{"tradeId":"52771987-0","blockHeight":52771987,"symbol":"UND-EBC_BNB","price":"0.00071839","quantity":"500.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-41","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823877","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00095507;","sellFee":"BNB:0.00095507;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00014367;","sellSingleFee":"BNB:0.00014367;","tickType":"BuyTaker","time":1575462922996},{"tradeId":"52771788-1","blockHeight":52771788,"symbol":"UND-EBC_BNB","price":"0.00071344","quantity":"2780.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1672","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00079334;","sellFee":"BNB:0.00079334;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00079334;","sellSingleFee":"BNB:0.00079334;","tickType":"SellTaker","time":1575462847472},{"tradeId":"52771756-1","blockHeight":52771756,"symbol":"UND-EBC_BNB","price":"0.00071344","quantity":"2790.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39","sellerOrderId":"ADFADB3E0990E3C56D1EF1BF8464A9EE982551EE-1670","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14hadk0sfjr3u2mg77xlcge9fa6vz250wqcxfj8","buyFee":"BNB:0.00079619;","sellFee":"BNB:0.00079619;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00079619;","sellSingleFee":"BNB:0.00079619;","tickType":"SellTaker","time":1575462834866},{"tradeId":"52771754-2","blockHeight":52771754,"symbol":"UND-EBC_BNB","price":"0.00071344","quantity":"4710.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823910","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00369249;","sellFee":"BNB:0.00369249;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00134412;","sellSingleFee":"BNB:0.00134412;","tickType":"BuyTaker","time":1575462834083},{"tradeId":"52771754-1","blockHeight":52771754,"symbol":"UND-EBC_BNB","price":"0.00070170","quantity":"3520.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823873","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00369249;","sellFee":"BNB:0.00369249;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00098799;","sellSingleFee":"BNB:0.00098799;","tickType":"BuyTaker","time":1575462834083},{"tradeId":"52771754-0","blockHeight":52771754,"symbol":"UND-EBC_BNB","price":"0.00069692","quantity":"4880.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-39","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823844","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00369249;","sellFee":"BNB:0.00369249;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00136038;","sellSingleFee":"BNB:0.00136038;","tickType":"BuyTaker","time":1575462834083},{"tradeId":"52771383-0","blockHeight":52771383,"symbol":"UND-EBC_BNB","price":"0.00068501","quantity":"3230.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-36","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823909","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00088503;","sellFee":"BNB:0.00088503;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00088503;","sellSingleFee":"BNB:0.00088503;","tickType":"BuyTaker","time":1575462692727},{"tradeId":"52770695-0","blockHeight":52770695,"symbol":"UND-EBC_BNB","price":"0.00068631","quantity":"4260.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-33","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823872","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00116947;","sellFee":"BNB:0.00116947;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00116947;","sellSingleFee":"BNB:0.00116947;","tickType":"BuyTaker","time":1575462435718},{"tradeId":"52770378-0","blockHeight":52770378,"symbol":"UND-EBC_BNB","price":"0.00068324","quantity":"5160.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-31","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823843","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00141020;","sellFee":"BNB:0.00141020;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00141020;","sellSingleFee":"BNB:0.00141020;","tickType":"BuyTaker","time":1575462317976},{"tradeId":"52770046-0","blockHeight":52770046,"symbol":"UND-EBC_BNB","price":"0.00067332","quantity":"1980.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-29","sellerOrderId":"8FE142DB8CEF4C0F75F418430D0A83F2A60C7FB1-823842","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb13ls59kuvaaxq7a05rpps6z5r72nqcla3tuc4nc","buyFee":"BNB:0.00053326;","sellFee":"BNB:0.00053326;","baseAsset":"UND-EBC","quoteAsset":"BNB","buySingleFee":"BNB:0.00053326;","sellSingleFee":"BNB:0.00053326;","tickType":"BuyTaker","time":1575462195060},{"tradeId":"52662648-0","blockHeight":52662648,"symbol":"RUNE-B1A_BNB","price":"0.00600000","quantity":"7657.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-25","sellerOrderId":"61DEDA2BD56ECCB8DE2CB8F01A4C8519116A6DF6-1910","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1v80d5274dmxt3h3vhrcp5ny9rygk5m0knkzsxc","buyFee":"RUNE-B1A:7.65700000;","sellFee":"BNB:0.01837680;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:7.65700000;","sellSingleFee":"BNB:0.01837680;","tickType":"SellTaker","time":1575418971134},{"tradeId":"52659619-0","blockHeight":52659619,"symbol":"RUNE-B1A_BNB","price":"0.00600000","quantity":"500.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-25","sellerOrderId":"80E4CC4C0FAF572BE5AC5C0A92FAC50784B04BCB-274","buyerSource":1,"sellerSource":2,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1srjvcnq04atjhedvts9f97k9q7ztqj7tzyu6dl","buyFee":"RUNE-B1A:0.50000000;","sellFee":"BNB:0.00120000;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:0.50000000;","sellSingleFee":"BNB:0.00120000;","tickType":"SellTaker","time":1575417790160},{"tradeId":"52651950-1","blockHeight":52651950,"symbol":"RUNE-B1A_BNB","price":"0.00600000","quantity":"376.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-25","sellerOrderId":"ADA3B7F239992944B8EA3AE17B5408384FD99122-146","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb14k3m0u3eny55fw828tshk4qg8p8anyfzee5qh7","buyFee":"RUNE-B1A:0.37600000;","sellFee":"BNB:0.00090240;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:0.37600000;","sellSingleFee":"BNB:0.00090240;","tickType":"SellTaker","time":1575414629016},{"tradeId":"52641228-2","blockHeight":52641228,"symbol":"RUNE-B1A_BNB","price":"0.00600000","quantity":"2158.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-25","sellerOrderId":"DEEFB902199908A343B1CE5204A7D1E1E11B76C1-83","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1mmhmjqsenyy2xsa3eefqff73u8s3kakp6exfj7","buyFee":"RUNE-B1A:2.15800000;","sellFee":"BNB:0.02766979;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:2.15800000;","sellSingleFee":"BNB:0.00517920;","tickType":"SellTaker","time":1575410278852},{"tradeId":"52216688-0","blockHeight":52216688,"symbol":"RUNE-B1A_BNB","price":"0.00640000","quantity":"421.00000000","buyerOrderId":"C1D09EEACA2B09901BBE08E4359B25E490227CF5-69","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-12","buyerSource":1,"sellerSource":1,"buyerId":"bnb1c8gfa6k29vyeqxa7prjrtxe9ujgzyl84s562mq","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"RUNE-B1A:0.42100000;","sellFee":"BNB:0.00107776;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:0.42100000;","sellSingleFee":"BNB:0.00107776;","tickType":"BuyTaker","time":1575239138940},{"tradeId":"52216442-0","blockHeight":52216442,"symbol":"RUNE-B1A_BNB","price":"0.00640000","quantity":"360.00000000","buyerOrderId":"FC92D65180FB43171BFA204EE498656636F27342-5","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-12","buyerSource":2,"sellerSource":1,"buyerId":"bnb1ljfdv5vqldp3wxl6yp8wfxr9vcm0yu6zyeg2p8","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"BNB:0.00092160;","sellFee":"BNB:0.00092160;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00092160;","sellSingleFee":"BNB:0.00092160;","tickType":"BuyTaker","time":1575239044547},{"tradeId":"52216253-1","blockHeight":52216253,"symbol":"RUNE-B1A_BNB","price":"0.00630000","quantity":"562.00000000","buyerOrderId":"C1D09EEACA2B09901BBE08E4359B25E490227CF5-67","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-14","buyerSource":1,"sellerSource":1,"buyerId":"bnb1c8gfa6k29vyeqxa7prjrtxe9ujgzyl84s562mq","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"RUNE-B1A:0.56200000;BNB:0.00424618;","sellFee":"BNB:0.00566242;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:0.56200000;","sellSingleFee":"BNB:0.00141624;","tickType":"BuyTaker","time":1575238970231},{"tradeId":"52216253-0","blockHeight":52216253,"symbol":"RUNE-B1A_BNB","price":"0.00629998","quantity":"1685.00000000","buyerOrderId":"C1D09EEACA2B09901BBE08E4359B25E490227CF5-67","sellerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-13","buyerSource":1,"sellerSource":1,"buyerId":"bnb1c8gfa6k29vyeqxa7prjrtxe9ujgzyl84s562mq","sellerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","buyFee":"RUNE-B1A:0.56200000;BNB:0.00424618;","sellFee":"BNB:0.00566242;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00424618;","sellSingleFee":"BNB:0.00424618;","tickType":"BuyTaker","time":1575238970231},{"tradeId":"52115667-0","blockHeight":52115667,"symbol":"RUNE-B1A_BNB","price":"0.00628995","quantity":"1161.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-10","sellerOrderId":"2C3ACBDA0A3DA42FCE4AC4D6750BC371C0BFC176-58845","buyerSource":1,"sellerSource":0,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb19savhks28kjzlnj2cnt82z7rw8qtlstkp8xnfr","buyFee":"RUNE-B1A:1.16100000;","sellFee":"BNB:0.00292105;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:1.16100000;","sellSingleFee":"BNB:0.00292105;","tickType":"BuyTaker","time":1575198323911},{"tradeId":"52114206-0","blockHeight":52114206,"symbol":"RUNE-B1A_BNB","price":"0.00600897","quantity":"3371.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-4","sellerOrderId":"9E2DB102115A3B91CD3FF9ACED3D8FC3254A45AE-57","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1nckmzqs3tgaernfllxkw60v0cvj553dwuegz8d","buyFee":"RUNE-B1A:3.37100000;","sellFee":"BNB:0.00810249;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:3.37100000;","sellSingleFee":"BNB:0.00810249;","tickType":"BuyTaker","time":1575197696513},{"tradeId":"52114064-0","blockHeight":52114064,"symbol":"RUNE-B1A_BNB","price":"0.00600897","quantity":"1528.00000000","buyerOrderId":"EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-3","sellerOrderId":"9E2DB102115A3B91CD3FF9ACED3D8FC3254A45AE-57","buyerSource":1,"sellerSource":1,"buyerId":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","sellerId":"bnb1nckmzqs3tgaernfllxkw60v0cvj553dwuegz8d","buyFee":"BNB:0.00367268;","sellFee":"BNB:0.00367268;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00367268;","sellSingleFee":"BNB:0.00367268;","tickType":"BuyTaker","time":1575197638215}],"total":70}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:03 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&end=1583672400000&limit=1000&offset=0&start=1578787200000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:04 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '19'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 784adc265aac7319252997c1f13e793d.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - yLfDbXxRp-zXW8c0um0pmT2obyZx46gviNRtSvQMsKkR4Y1V9sN6QA==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:04 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/account/bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '416'
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:05 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '1'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 349cb49f3189fe6fde930bce14e4488b.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - r6ZOC-7JlMXc-1fZZJp9Vc62S2MwWe399e9WSHN7X6xmd1PZtnyblQ==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"account_number":318836,"address":"bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k","balances":[{"free":"0.00627194","frozen":"0.00000000","locked":"0.00000000","symbol":"BNB"},{"free":"13392.11500000","frozen":"0.00000000","locked":"0.00000000","symbol":"RUNE-B1A"}],"flags":0,"public_key":[3,77,184,5,37,71,184,171,45,39,26,130,70,220,64,241,244,225,230,126,49,238,133,250,36,70,90,124,54,23,35,88,106],"sequence":97}
+
+        '
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:05 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&endTime=1583672400000&limit=1000&offset=0&startTime=1583672400000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:06 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '17'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 382c0877688d3ba2e0300178da7e63cc.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - d-56PEUS8h_92E1wva6Grh8BNQpihAwxac2VkF9zmxd8XsU6EKPaVQ==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:07 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k&end=1583672400000&limit=1000&offset=0&start=1583672400000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:37:06 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '2'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 ba9b7e039a1f14d52372c11af5c24e68.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - 3mvbKB_lKwJ8LguNIlWjyOgpvJZoLm4iOqZ1nphhokmPyobxsGmSJQ==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:37:07 GMT
+recorded_with: VCR 4.0.0

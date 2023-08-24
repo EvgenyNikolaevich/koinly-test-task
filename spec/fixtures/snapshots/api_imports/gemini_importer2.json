@@ -1,0 +1,55 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 35,
+  "entry_count": 79,
+  "balances": {
+    "BTC": "0.9498102",
+    "ETH": "0.11195247",
+    "USD": "1.69568499"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 16,
+      "first": "2017-09-13 02:50:00 UTC | 484.8408 USD -> 0.12 BTC (fee: 1.212102 USD, txhash: 1661578642, importer_tag: gemini)",
+      "last": "2018-02-07 18:59:30 UTC | 499.3144394 USD -> 0.06044969 BTC (fee: 1.2482860985 USD, txhash: 2982535125, importer_tag: gemini)"
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 2,
+      "first": "2017-12-07 05:30:07 UTC | Deposit 0.07427478 BTC (txhash: 32733b7e92bc33829cb6cdda27ebd07af8c4c49694ba16389d9d0b046b7a0983, txdest: 1McPmtaA4hLhF1zNFw45pcEcGeqkMmZHnC, importer_tag: gemini)",
+      "last": "2017-12-11 16:54:38 UTC | Deposit 3.08544801 ETH (txhash: 605dcdd9d80664b4159f7adb3b1b3b4429d649b225d9ffa7cf12cf39be49712d, txdest: 0x865b5cEFA19Fa73BA9cAaE8a41a2Ba7d7FE19c2B, importer_tag: gemini)"
+    },
+    {
+      "type": "fiat_deposit",
+      "count": 11,
+      "first": "2017-09-04 01:09:45 UTC | Deposit 500.0 USD (desc: ACH, importer_tag: gemini)",
+      "last": "2018-02-06 23:17:35 UTC | Deposit 500.0 USD (desc: ACH, importer_tag: gemini)"
+    },
+    {
+      "type": "sell",
+      "count": 6,
+      "first": "2017-12-15 00:38:43 UTC | 0.44918378 BTC -> 7636.12426 USD (fee: 19.09031065 USD, txhash: 2474516405, importer_tag: gemini)",
+      "last": "2017-12-22 11:04:52 UTC | 0.75513252 BTC -> 10480.1897433972 USD (fee: 26.2004743585 USD, txhash: 2519635105, importer_tag: gemini)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 22,
+    "first": "2017-09-13 02:50:00 UTC | 484.8408 USD -> 0.12 BTC (fee: 1.212102 USD, txhash: 1661578642, importer_tag: gemini)",
+    "last": "2018-02-07 18:59:30 UTC | 499.3144394 USD -> 0.06044969 BTC (fee: 1.2482860985 USD, txhash: 2982535125, importer_tag: gemini)"
+  },
+  "txn_with_net_worth": null,
+  "txn_with_desc": {
+    "type": "with desc",
+    "count": 11,
+    "first": "2017-09-04 01:09:45 UTC | Deposit 500.0 USD (desc: ACH, importer_tag: gemini)",
+    "last": "2018-02-06 23:17:35 UTC | Deposit 500.0 USD (desc: ACH, importer_tag: gemini)"
+  }
+}

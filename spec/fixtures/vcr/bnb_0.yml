@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=justignoreme&endTime=1563408000000&limit=1000&offset=0&startTime=1555718400000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:54:26 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '1'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 0c8a06d9e796fe47be7d16c5fad0cb48.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Error from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - FA2syyoI2yLLt9Uh4kH8sTGo7kY-FcR3lrjhJQUk7YJWMVBjkBB1oA==
+    body:
+      encoding: UTF-8
+      string: '{"code":400,"message":"address is not valid"}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:54:26 GMT
+recorded_with: VCR 4.0.0

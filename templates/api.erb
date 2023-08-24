@@ -1,0 +1,75 @@
+class <%= class_name %>Api < BaseApi
+  BASE_URL = "https://example.com/api".freeze # todo: enter base url without trailing slash
+
+  attr_reader <%= methods.map{|x| ":#{x}"}.join(', ') %>
+
+  def initialize(<%= methods.map{|x| "#{x}: nil"}.join(', ') %>)
+    <%= methods.map{|x| "@#{x}"}.join(', ') %> = <%= methods.join(', ') %>
+  end
+
+  def balances
+    get('/balances') # todo: replace path
+  end
+
+  def transactions(q={})
+    get('/transactions', q) # todo: replace path
+  end
+
+  private
+
+  def get(path, query={})
+    query = safe_query(query)
+
+    res = rate_limit(0.5.seconds) do
+      with_retry([HTTP::ConnectionError, OpenSSL::SSL::SSLError]) do
+        HTTP
+          .with_proxy
+          .get(path.start_with?('http') ? path : BASE_URL + path, params: query)
+      end
+    end
+
+    parse_response(res)
+  end
+
+  def post(path, query={})
+    query = safe_query(query)
+
+    res = rate_limit(0.5.seconds) do
+      with_retry([HTTP::ConnectionError, OpenSSL::SSL::SSLError]) do
+        # ------------------------------------------------------------
+        # TODO: override this with auth signing logic
+        # ------------------------------------------------------------
+        # nonce = (Time.now.to_f * 1000).to_i.to_s
+        # payload = "/api#{path}#{nonce}#{query.to_json}"
+        # signature = OpenSSL::HMAC.hexdigest('sha256', api_secret, payload)
+
+        HTTP
+          .with_proxy
+          .headers(
+            # '----API KEY-----' => api_key,
+            # '----SIGNATURE---' => signature,
+            'Content-Type' => 'application/json',
+            'Accept' => 'application/json',
+          )
+          .post(path.start_with?('http') ? path : BASE_URL + path, body: query.to_json)
+      end
+    end
+
+    parse_response(res)
+  end
+
+  def parse_response(res)
+    json = safe_json(res)
+
+    # ------------------------------------------------------------
+    # TODO: override this with error handling
+    # ------------------------------------------------------------
+    if json.is_a?(Hash) && json['error'].present?
+      message = json['error']
+      raise SyncAuthError, message if ["Invalid key"].any?{ |x| message.include?(x) }
+      raise SyncError, message
+    end
+
+    json
+  end
+end

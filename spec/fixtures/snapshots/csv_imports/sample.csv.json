@@ -1,0 +1,63 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 3,
+  "entry_count": 5,
+  "balances": {
+    "BTC": "1.5",
+    "USD": "-1005.0"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 1,
+      "first": "2018-01-01 14:25:00 UTC | 1000.0 USD -> 1.0 BTC (fee: 5.0 USD, desc: my first crypto!)",
+      "last": false
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 1,
+      "first": "2018-01-03 14:25:00 UTC | Deposit 1.0 BTC (label: mining, txhash: 0x12345)",
+      "last": false
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 1,
+      "first": "2018-01-02 14:25:00 UTC | Withdraw 0.5 BTC",
+      "last": false
+    }
+  ],
+  "labeled_txns": [
+    [
+      {
+        "type": "mining",
+        "count": 1,
+        "first": "2018-01-03 14:25:00 UTC | Deposit 1.0 BTC (label: mining, txhash: 0x12345)",
+        "last": false
+      }
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 1,
+    "first": "2018-01-01 14:25:00 UTC | 1000.0 USD -> 1.0 BTC (fee: 5.0 USD, desc: my first crypto!)",
+    "last": false
+  },
+  "txn_with_net_worth": null,
+  "txn_with_desc": {
+    "type": "with desc",
+    "count": 1,
+    "first": "2018-01-01 14:25:00 UTC | 1000.0 USD -> 1.0 BTC (fee: 5.0 USD, desc: my first crypto!)",
+    "last": false
+  },
+  "csv_import": {
+    "total_count": 3,
+    "skipped_count": 0,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 3,
+    "bad_rows": [
+
+    ]
+  }
+}

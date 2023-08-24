@@ -1,0 +1,69 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 58,
+  "entry_count": 94,
+  "balances": {
+    "DGB": "174638.694408"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 24,
+      "first": "2018-06-01 12:31:10 UTC | 200.0 USD -> 6007.68 DGB (net worth: 197.0 USD, desc: Asset exchange: buy DGB, txhash: HCT49XW, importer_tag: abra)",
+      "last": "2018-12-18 13:39:32 UTC | 1817.54 USD -> 174638.694408 DGB (net worth: 1790.28 USD, desc: Asset exchange: buy DGB, txhash: U8B7UWK, importer_tag: abra)"
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 1,
+      "first": "2018-05-22 19:21:28 UTC | Deposit 1.0 LTC (net worth: 129.71 USD, desc: Deposit to LTC address, txhash: 5AUMNAV, importer_tag: abra)",
+      "last": false
+    },
+    {
+      "type": "exchange",
+      "count": 1,
+      "first": "2018-05-22 21:23:48 UTC | 1.0 LTC -> 3249.8909 DGB (net worth: 125.91 USD, desc: Asset exchange: buy DGB, txhash: YQ1GQWM, importer_tag: abra)",
+      "last": false
+    },
+    {
+      "type": "fiat_deposit",
+      "count": 21,
+      "first": "2018-06-01 11:22:58 UTC | Deposit 200.0 USD (net worth: 200.0 USD, desc: AMEX card deposit, txhash: 1CD8BKQ, importer_tag: abra)",
+      "last": "2018-12-12 13:18:38 UTC | Deposit 200.0 USD (net worth: 200.0 USD, desc: AMEX card deposit, txhash: 9XNFWKJ, importer_tag: abra)"
+    },
+    {
+      "type": "sell",
+      "count": 11,
+      "first": "2018-06-19 15:53:52 UTC | 16661.2509 DGB -> 460.88 USD (net worth: 460.88 USD, desc: Asset exchange: buy USD, txhash: QF2KNQQ, importer_tag: abra)",
+      "last": "2018-12-13 20:23:30 UTC | 233381.62271 DGB -> 1817.54 USD (net worth: 1817.54 USD, desc: Asset exchange: buy USD, txhash: 843F2CF, importer_tag: abra)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": {
+    "type": "with metadata",
+    "count": 58,
+    "first": "2018-05-22 19:21:28 UTC | Deposit 1.0 LTC (net worth: 129.71 USD, desc: Deposit to LTC address, txhash: 5AUMNAV, importer_tag: abra)",
+    "last": "2018-12-18 13:39:32 UTC | 1817.54 USD -> 174638.694408 DGB (net worth: 1790.28 USD, desc: Asset exchange: buy DGB, txhash: U8B7UWK, importer_tag: abra)"
+  },
+  "txn_with_desc": {
+    "type": "with desc",
+    "count": 58,
+    "first": "2018-05-22 19:21:28 UTC | Deposit 1.0 LTC (net worth: 129.71 USD, desc: Deposit to LTC address, txhash: 5AUMNAV, importer_tag: abra)",
+    "last": "2018-12-18 13:39:32 UTC | 1817.54 USD -> 174638.694408 DGB (net worth: 1790.28 USD, desc: Asset exchange: buy DGB, txhash: U8B7UWK, importer_tag: abra)"
+  },
+  "csv_import": {
+    "total_count": 94,
+    "skipped_count": 0,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 58,
+    "bad_rows": [
+
+    ]
+  }
+}

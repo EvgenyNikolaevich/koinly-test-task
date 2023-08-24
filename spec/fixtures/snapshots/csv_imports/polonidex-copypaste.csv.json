@@ -1,0 +1,41 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 34,
+  "entry_count": 68,
+  "balances": {
+    "ATT": "-1559964.8",
+    "BTT": "9737390.8",
+    "DICE": "-267875000000.0",
+    "IGG": "337506.0",
+    "REY": "-329594000000.0",
+    "SEED": "-1760.0",
+    "TRX": "-338520.6856"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "exchange",
+      "count": 34,
+      "first": "2019-01-31 18:05:00 UTC | 2620.55 TRX -> 425000000000.0 DICE (importer_tag: trx_market)",
+      "last": "2019-11-18 10:01:00 UTC | 9522580.8 ATT -> 1047.4839 TRX (importer_tag: trx_market)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null,
+  "csv_import": {
+    "total_count": 35,
+    "skipped_count": 1,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 34,
+    "bad_rows": [
+
+    ]
+  }
+}

@@ -1,0 +1,741 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&endTime=1563408000000&limit=1000&offset=0&startTime=1555718400000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:04 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '249'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 8415fbfe8b717c99d8a0b872dac2363c.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - CorGIsu_Naht49zMLnEK-VODpmljLhsSiKQWLEKiP5rSBc2C3PoTfw==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:04 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&endTime=1571097600000&limit=1000&offset=0&startTime=1563408000000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:04 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '58'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '216'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 a6a467c05228c5a9e108f9ce2f8f3c86.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - BEr12golvtjkEmWz1rY3DiuJLZYuew5Vps15rVKF1PMmIftTBKHxNA==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[{"txHash":"AB20E180B98F1106F9DCAB9BF8696D7557FF480D0D3D8B8D2AFBA70486B58DBB","blockHeight":40014515,"txType":"NEW_ORDER","timeStamp":"2019-10-08T23:58:50.538Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":"14.99146000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":27945434,"orderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-1","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"BUY\",\"price\":\"0.000821\",\"quantity\":\"18260\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-1\"}}","confirmBlocks":0,"memo":"","source":0,"sequence":0},{"txHash":"E7DA1972531C1669A113E1B36CAEF4A30950EDCFB96A0DB9E0D57B841F25F139","blockHeight":40013852,"txType":"TRANSFER","timeStamp":"2019-10-08T23:54:43.399Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"14.99900000","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":27945681,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":2,"sequence":336477},{"txHash":"7F1877B3C6E4C540C43CCCD8B3FA3F61B79A5446BC0E358B808DBB0E6E9E7A5D","blockHeight":38010451,"txType":"TRANSFER","timeStamp":"2019-09-30T01:24:02.203Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"4874.78000000","txAsset":"GTO-908","txFee":"0.00037500","proposalId":null,"txAge":28717922,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":2,"sequence":329101},{"txHash":"B7DB60E67905C3B2CDD43522692B9AB403C389E83E9DEBD29F061D0A4CB88309","blockHeight":38008189,"txType":"TRANSFER","timeStamp":"2019-09-30T01:09:59.264Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"148.78000000","txAsset":"GTO-908","txFee":"0.00037500","proposalId":null,"txAge":28718765,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":2,"sequence":329094},{"txHash":"FED9FF5CBE92573DE2968FA062E17E9441AC60AE9965BFD3495034474DAFD639","blockHeight":37715167,"txType":"TRANSFER","timeStamp":"2019-09-28T18:55:04.187Z","fromAddr":"bnb1zka97jyw3c4atmwr5ptea8dh0c8ssg78y78tz3","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"30244.76300000","txAsset":"ONE-5F9","txFee":"0.00037500","proposalId":null,"txAge":28827660,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":1,"sequence":8325},{"txHash":"0875C98F66E9C64E8F4F7AEC97EC2D698EFA6A95C0C40B2D6DC4B9CC84638F1F","blockHeight":37709391,"txType":"TRANSFER","timeStamp":"2019-09-28T18:18:51.055Z","fromAddr":"bnb1zka97jyw3c4atmwr5ptea8dh0c8ssg78y78tz3","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"306.00000000","txAsset":"ONE-5F9","txFee":"0.00037500","proposalId":null,"txAge":28829833,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":1,"sequence":8324},{"txHash":"B548B69CBA71370EF5530F2D306A8BBCC8C64500D104124CA612C0EF6FCB9B42","blockHeight":27794565,"txType":"TRANSFER","timeStamp":"2019-08-16T16:43:09.602Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"18780.00000000","txAsset":"ONE-5F9","txFee":"0.00037500","proposalId":null,"txAge":32550775,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":2,"sequence":259544}],"total":7}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:05 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&endTime=1578787200000&limit=1000&offset=0&startTime=1571097600000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:05 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '223'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 7dd40957abf3e816a58c0f96c91c29f3.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - Hw88ockpzeB_c8rJA_0M1fRFlkBYksmv7hMdKwfb2UqdGAaSDKefog==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[{"txHash":"8AF32D3E371EAC9DAEDB6D76FA64FDFFF19FC9281F0C381FBE81B3571D1E7CE5","blockHeight":50282659,"txType":"TRANSFER","timeStamp":"2019-11-23T01:40:42.423Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":"bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23","value":"65.14199649","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":24051323,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"107284813","source":2,"sequence":9},{"txHash":"3045170A80E1DDCA57F7B6647C38EC6C1F09281D696A80CBBF7000910A50E59D","blockHeight":50280473,"txType":"NEW_ORDER","timeStamp":"2019-11-23T01:26:49.301Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":"1.25670000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":24052156,"orderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-9","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00355\",\"quantity\":\"354\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-9\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":8},{"txHash":"81D5164501B6BAE3F72C7C8700C697DBD3E8CA663E37431EDBD7EEDAD1DEBA9B","blockHeight":50280366,"txType":"CANCEL_ORDER","timeStamp":"2019-11-23T01:26:09.181Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":24052196,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00355\",\"quantity\":\"5290\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-7\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":7},{"txHash":"E932CCDEFD3CA92E53D23913CE3C52B464A5A82C268173ED92DD11A888423CD1","blockHeight":50280339,"txType":"NEW_ORDER","timeStamp":"2019-11-23T01:25:59.120Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":"18.77950000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":24052206,"orderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-7","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.00355\",\"quantity\":\"5290\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-7\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":6},{"txHash":"C3AC996194865F20060D8B21D4193E8CFEDFF07E8CC93F54A51DFB6417A53F41","blockHeight":50280224,"txType":"NEW_ORDER","timeStamp":"2019-11-23T01:25:15.324Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":"21.91000000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":24052250,"orderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-6","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.0035\",\"quantity\":\"6260\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-6\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":5},{"txHash":"774250FE6E13B86B2A34617E101B57D0AA672D869666FA935467B5538A68CA77","blockHeight":50280034,"txType":"CANCEL_ORDER","timeStamp":"2019-11-23T01:24:03.615Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":24052321,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.003745\",\"quantity\":\"18260\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-4\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":4},{"txHash":"E8D948FFDECEFFE31D738C0EB19CC115B17016E15F1ADB9F1B486BB6560F9A67","blockHeight":50279011,"txType":"NEW_ORDER","timeStamp":"2019-11-23T01:17:34.586Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":"68.38370000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":24052710,"orderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-4","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.003745\",\"quantity\":\"18260\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-4\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":3},{"txHash":"552DE157C4665BEFEAA13996543DC50319C59C48D5F649C5867B9CF991B5885F","blockHeight":50278621,"txType":"CANCEL_ORDER","timeStamp":"2019-11-23T01:15:07.067Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":null,"txAsset":null,"txFee":null,"proposalId":null,"txAge":24052858,"orderId":null,"code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.003825\",\"quantity\":\"18260\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-2\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":2},{"txHash":"BC032A115800D8FF25B4C87EF2206581AC8409A5CD55557B9E8ACB1AB6DBE06F","blockHeight":50278527,"txType":"NEW_ORDER","timeStamp":"2019-11-23T01:14:30.643Z","fromAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","toAddr":null,"value":"69.84450000","txAsset":"RUNE-B1A","txFee":"0.00000000","proposalId":null,"txAge":24052894,"orderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-2","code":0,"data":"{\"orderData\":{\"symbol\":\"RUNE-B1A_BNB\",\"orderType\":\"LIMIT\",\"side\":\"SELL\",\"price\":\"0.003825\",\"quantity\":\"18260\",\"timeInForce\":\"GTE\",\"orderId\":\"35FAA410682207EC0E73214D8FE883D84E00BCFF-2\"}}","confirmBlocks":0,"memo":"","source":2,"sequence":1},{"txHash":"41ACBD4FB860D9E42CB7C4B8FDADF0F1C33C526616DF592E85736A91859FE0CD","blockHeight":48623535,"txType":"TRANSFER","timeStamp":"2019-11-15T18:09:22.169Z","fromAddr":"bnb1qaey7s2fwrx3zruv5yqylm5ez27h6nlavfetxf","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"88.00000000","txAsset":"CBM-4B2","txFee":"0.00037500","proposalId":null,"txAge":24683203,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"CryptoBonusMiles
+        launched the mobile apps, fly and earn at https://cryptobonusmiles.com","source":0,"sequence":2225}],"total":10}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:05 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&endTime=1583672400000&limit=1000&offset=0&startTime=1578787200000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:06 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '3'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '58'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '261'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 5eac89c80c43223e9da095b517da9acf.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - wZ9EcHP1ukVmAnLKyrMxO-ORHvKLmlDuB-VU8Llf9X7lvarI6oguDQ==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[{"txHash":"CAF2BC6CE552FE5101B7754EA4D8C63AB87FBDD7E075726369E7D36BC4755E79","blockHeight":61653030,"txType":"TRANSFER","timeStamp":"2020-01-14T21:23:17.004Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"212.98500000","txAsset":"KAVA-10C","txFee":"0.00037500","proposalId":null,"txAge":19487569,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":0,"sequence":457939},{"txHash":"B0FBEEDA27CCBFA0BB058EAC69F30EB1E85C4B655542466C6D3DE63324F936E5","blockHeight":61652079,"txType":"TRANSFER","timeStamp":"2020-01-14T21:17:13.745Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","value":"4.98500000","txAsset":"KAVA-10C","txFee":"0.00037500","proposalId":null,"txAge":19487932,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"","source":0,"sequence":457936}],"total":2}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:06 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&end=1563408000000&limit=1000&offset=0&start=1555718400000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:06 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '298'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '20'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 294cd6bdc63e82903e2a1016821f2a5f.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - lb-4okrUTX8_eGhRswUtklyBd2YIaR40GZ__1y3lZH_JVKVGZyCw7g==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:06 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&end=1571097600000&limit=1000&offset=0&start=1563408000000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:06 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '298'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '36'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 a1f40ca881c1a16d8b558ae0254d042c.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - ga8Zqx4VbyOoFXHPXXwsOWHemw_Tg0Z_WE3nCvFcPGAGOHbhquQMcw==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[{"tradeId":"40014515-1","blockHeight":40014515,"symbol":"RUNE-B1A_BNB","price":"0.00082100","quantity":"18260.00000000","buyerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-1","sellerOrderId":"51C3E5C17DFA715C95FAAFD7E64DD26F884C847A-338","buyerSource":0,"sellerSource":0,"buyerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","sellerId":"bnb128p7tstalfc4e9064lt7vnwjd7yyepr6cv059c","buyFee":"BNB:0.00599658;","sellFee":"BNB:0.00599658;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00599658;","sellSingleFee":"BNB:0.00599658;","tickType":"BuyTaker","time":1570579130538}],"total":1}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:07 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&end=1578787200000&limit=1000&offset=0&start=1571097600000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:07 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '298'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '50'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 c21e7684ca3ec0e407dc0675af6cf3c5.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - pikqulaQh2U3yv3caMJ-6afosnfiEovVHjOzDx_XTuYESuCr9bycUg==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[{"tradeId":"50283377-0","blockHeight":50283377,"symbol":"RUNE-B1A_BNB","price":"0.00355000","quantity":"354.00000000","buyerOrderId":"5D3C9D8578E9B15EF50AE98FAEF8D1A5434AC571-7","sellerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-9","buyerSource":2,"sellerSource":2,"buyerId":"bnb1t57fmptcaxc4aag2ax86a7x354p543t3zs8m7c","sellerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","buyFee":"BNB:0.00387867;","sellFee":"BNB:0.00050268;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00050268;","sellSingleFee":"BNB:0.00050268;","tickType":"BuyTaker","time":1574473514638},{"tradeId":"50280339-0","blockHeight":50280339,"symbol":"RUNE-B1A_BNB","price":"0.00355000","quantity":"4940.00000000","buyerOrderId":"4D313C65D8DB291FDA90A279264DBB9226642152-36","sellerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-7","buyerSource":1,"sellerSource":2,"buyerId":"bnb1f5cncewcmv53lk5s5fujvndmjgnxgg2ja454ts","sellerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","buyFee":"BNB:0.00701480;","sellFee":"BNB:0.00701480;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00701480;","sellSingleFee":"BNB:0.00701480;","tickType":"SellTaker","time":1574472359120},{"tradeId":"50280224-0","blockHeight":50280224,"symbol":"RUNE-B1A_BNB","price":"0.00355000","quantity":"6260.00000000","buyerOrderId":"4D313C65D8DB291FDA90A279264DBB9226642152-36","sellerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-6","buyerSource":1,"sellerSource":2,"buyerId":"bnb1f5cncewcmv53lk5s5fujvndmjgnxgg2ja454ts","sellerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","buyFee":"BNB:0.00888920;","sellFee":"BNB:0.00888920;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00888920;","sellSingleFee":"BNB:0.00888920;","tickType":"SellTaker","time":1574472315324},{"tradeId":"50279011-3","blockHeight":50279011,"symbol":"RUNE-B1A_BNB","price":"0.00375000","quantity":"519.00000000","buyerOrderId":"CB74335663725364420D2043B1A50F6E269CED62-204","sellerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-4","buyerSource":2,"sellerSource":2,"buyerId":"bnb1ed6rx4nrwffkgssdyppmrfg0dcnfemtzgtu44p","sellerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","buyFee":"RUNE-B1A:0.51900000;","sellFee":"BNB:0.01016277;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"RUNE-B1A:0.51900000;","sellSingleFee":"BNB:0.00077850;","tickType":"SellTaker","time":1574471854586},{"tradeId":"50279011-2","blockHeight":50279011,"symbol":"RUNE-B1A_BNB","price":"0.00375001","quantity":"1000.00000000","buyerOrderId":"38D4CAE8CA2AFD289262DF1316A4D370EF85AC53-13226","sellerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-4","buyerSource":0,"sellerSource":2,"buyerId":"bnb18r2v46x29t7j3ynzmuf3dfxnwrhcttznselxrm","sellerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","buyFee":"BNB:0.00150000;","sellFee":"BNB:0.01016277;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00150000;","sellSingleFee":"BNB:0.00150000;","tickType":"SellTaker","time":1574471854586},{"tradeId":"50279011-1","blockHeight":50279011,"symbol":"RUNE-B1A_BNB","price":"0.00380000","quantity":"945.00000000","buyerOrderId":"5E95187486193382A5CCC256C65FDC7F3555567E-6","sellerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-4","buyerSource":2,"sellerSource":2,"buyerId":"bnb1t623sayxryec9fwvcftvvh7u0u6424n7wgardv","sellerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","buyFee":"BNB:0.00143640;","sellFee":"BNB:0.01016277;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00143640;","sellSingleFee":"BNB:0.00143640;","tickType":"SellTaker","time":1574471854586},{"tradeId":"50279011-0","blockHeight":50279011,"symbol":"RUNE-B1A_BNB","price":"0.00380002","quantity":"4242.00000000","buyerOrderId":"2C3ACBDA0A3DA42FCE4AC4D6750BC371C0BFC176-51897","sellerOrderId":"35FAA410682207EC0E73214D8FE883D84E00BCFF-4","buyerSource":0,"sellerSource":2,"buyerId":"bnb19savhks28kjzlnj2cnt82z7rw8qtlstkp8xnfr","sellerId":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","buyFee":"BNB:0.00644787;","sellFee":"BNB:0.01016277;","baseAsset":"RUNE-B1A","quoteAsset":"BNB","buySingleFee":"BNB:0.00644787;","sellSingleFee":"BNB:0.00644787;","tickType":"SellTaker","time":1574471854586}],"total":7}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:07 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&end=1583672400000&limit=1000&offset=0&start=1578787200000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:08 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '297'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '23'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 349cb49f3189fe6fde930bce14e4488b.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - Fl1A4UslsS6G1y9qVQKG8CsCM8kUA31gZVCMYp_75p3E_300kbkhMw==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:08 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/account/bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '769'
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:08 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '2'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 0644ef1dec9c563ae1ecd56107eb52a5.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - dAk9TukE-RqNZnG_HeQnqspWJDg2a-PVoyJHx2b773P62APRPs98Dw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"account_number":218751,"address":"bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y","balances":[{"free":"88.00000000","frozen":"0.00000000","locked":"0.00000000","symbol":"CBM-4B2"},{"free":"5023.56000000","frozen":"0.00000000","locked":"0.00000000","symbol":"GTO-908"},{"free":"217.97000000","frozen":"0.00000000","locked":"0.00000000","symbol":"KAVA-10C"},{"free":"49330.76300000","frozen":"0.00000000","locked":"0.00000000","symbol":"ONE-5F9"},{"free":"0.00000000","frozen":"0.00000000","locked":"0.00000000","symbol":"RUNE-B1A"},{"free":"1.25619732","frozen":"0.00000000","locked":"0.00000000","symbol":"BNB"}],"flags":0,"public_key":[3,142,60,208,208,47,43,78,7,251,142,177,189,100,102,163,210,170,192,94,216,181,23,240,69,166,166,121,63,136,83,18,185],"sequence":10}
+
+        '
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:09 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&endTime=1583672400000&limit=1000&offset=0&startTime=1583672400000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:09 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '208'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 bd8e580492caac35a05a48f6ff8f5deb.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - BcoXS1GQ-Ih2kxrEem7S6w_YzZrs9Vd7MxEiLL9uKesFxpECiQqOrw==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:10 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1xha2gyrgygr7crnny9xcl6yrmp8qp08llnd80y&end=1583672400000&limit=1000&offset=0&start=1583672400000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:09 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '3'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 f52fa9ddf23e95c892a74419663288da.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - HXGHCf4vOM_ZrMxBlNY5fbesT6SucGK8jqqUYA7oqqwlw496Ey9ZCQ==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:10 GMT
+recorded_with: VCR 4.0.0

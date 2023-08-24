@@ -1,0 +1,48 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 73,
+  "entry_count": 213,
+  "balances": {
+    "BNB": "-1.60075478",
+    "RUNE": "0.681",
+    "UND": "2220.0"
+  },
+  "balance_diff": {
+    "BNB": "-1.60702672",
+    "RUNE": "-13391.434",
+    "UND": "2220.0"
+  },
+  "txns": [
+    {
+      "type": "crypto_deposit",
+      "count": 2,
+      "first": "2019-12-01 10:26:51 UTC | Deposit 36.7452194 BNB (txhash: 3B652875685DB051F62A5C696D6B1FF5498B8D68D87254B8CF9381BB7F0CA286, txsrc: bnb14spch0j94ya2w3fe49uf3lw9ee7vfwp8q5jups, txdest: bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k, importer_tag: binance_dex)",
+      "last": "2019-12-03 17:41:18 UTC | Deposit 89.999 BNB (txhash: D3968C7971E8AB988C53999F38E357841FCFC790AF487350A0AED35B29F900B4, txsrc: bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m, txdest: bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k, importer_tag: binance_dex)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 1,
+      "first": "2019-12-06 17:15:59 UTC | Withdraw 133.33714789 BNB (txhash: DC7911158C8FBE7DB5CA7AF989CA27CD282A8D5F19B49E9AEE3336A1545F91CF, txsrc: bnb1a0mn35y7v37ut0unhduw6gwurwznpf79zywn0k, txdest: bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23, importer_tag: binance_dex)",
+      "last": false
+    },
+    {
+      "type": "exchange",
+      "count": 70,
+      "first": "2019-12-01 10:53:58 UTC | 9.18170616 BNB -> 1528.0 RUNE (fee: 0.00367268 BNB, txhash: EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-3, importer_tag: binance_dex)",
+      "last": "2019-12-06 17:09:22 UTC | 9276.0 RUNE -> 60.75807828 BNB (fee: 0.02430323 BNB, txhash: EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-83, importer_tag: binance_dex)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 70,
+    "first": "2019-12-01 10:53:58 UTC | 9.18170616 BNB -> 1528.0 RUNE (fee: 0.00367268 BNB, txhash: EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-3, importer_tag: binance_dex)",
+    "last": "2019-12-06 17:09:22 UTC | 9276.0 RUNE -> 60.75807828 BNB (fee: 0.02430323 BNB, txhash: EBF738D09E647DC5BF93BB78ED21DC1B8530A7C5-83, importer_tag: binance_dex)"
+  },
+  "txn_with_net_worth": null,
+  "txn_with_desc": null
+}

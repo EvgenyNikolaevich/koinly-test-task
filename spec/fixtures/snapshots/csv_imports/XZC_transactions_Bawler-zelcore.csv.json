@@ -1,0 +1,41 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 1656,
+  "entry_count": 1656,
+  "balances": {
+    "XZC": "26.1067045"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "crypto_deposit",
+      "count": 1630,
+      "first": "2019-06-21 08:54:39 UTC | Deposit 0.10602893 XZC (txhash: 5c1a52e080de1bda4850a5b466091a13b394b09849f4231c3c1372833bac2b68, importer_tag: zelcore_wallet)",
+      "last": "2020-02-18 19:06:36 UTC | Deposit 0.21483 XZC (txhash: 4000916061925116b4973b02d4d5b9067bac63fb652c7c830a170bfce388659e, importer_tag: zelcore_wallet)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 26,
+      "first": "2019-07-07 19:29:25 UTC | Withdraw 2.00055982 XZC (txhash: 882fedee439d9546bc73e621cc2064005de8203cf77229297537106f2f2b316a, importer_tag: zelcore_wallet)",
+      "last": "2020-02-06 17:28:21 UTC | Withdraw 15.97653489 XZC (txhash: 5a2feeb851030edf2c6d62692e88500d8220614a91cafac6a8031844d13df0c8, importer_tag: zelcore_wallet)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null,
+  "csv_import": {
+    "total_count": 1656,
+    "skipped_count": 0,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 1656,
+    "bad_rows": [
+
+    ]
+  }
+}

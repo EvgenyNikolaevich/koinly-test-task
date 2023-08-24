@@ -1,0 +1,741 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&endTime=1563408000000&limit=1000&offset=0&startTime=1555718400000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:35:56 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '58'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '10'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 971e767129c6bb09fdb0f2f6e1024016.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - 6EIkW86KcZABJh1Hmzt8dUZSPcIE-iPaLbJggq6mCEzUh8BZTkvBQw==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:35:56 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&endTime=1571097600000&limit=1000&offset=0&startTime=1563408000000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:35:57 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '57'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '15'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 5310455c0871454090a241a1d2a5443a.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - EUU8K5LJ-LeIWmtY1iAd8OwAFhL36i-7MGHTqSxX6eodyUw9pUXktg==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[{"txHash":"4976DFACF32F60F4196059B5E13CE5C840D31911320005E8CA8FFEFF36D40D18","blockHeight":41137896,"txType":"TRANSFER","timeStamp":"2019-10-13T22:40:51.578Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx","value":"59.49900000","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":27518105,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"BinanceCEX","source":2,"sequence":343483}],"total":1}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:35:57 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&endTime=1578787200000&limit=1000&offset=0&startTime=1571097600000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:35:58 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '233'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 941ebee04a90931a7a888e1adfca2331.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - qdQ8ZC9ACAHt49PSnsLg-yC19WgyI2iZ_pCWXDmW2Avu1T8c017Tqw==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[{"txHash":"4EEC292BB7D981B47E1AB731C29450F422D904CA809EAF63F2E83DAAC3B22044","blockHeight":52808313,"txType":"TRANSFER","timeStamp":"2019-12-04T16:36:57.441Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx","value":"360.09900000","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":23047140,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"BinanceCEX","source":0,"sequence":428213},{"txHash":"ECFF857604C166494ABE1EEC84D109F61FA62583DF40BD5BD826666A4DEB355B","blockHeight":49914832,"txType":"TRANSFER","timeStamp":"2019-11-21T10:58:29.618Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx","value":"99.99900000","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":24190648,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"BinanceCEX","source":0,"sequence":409330},{"txHash":"6A557D6C03C4FB29AA4CAB4D051DAE303FF482778CC9AA879CDA2266E99CBCC2","blockHeight":46563386,"txType":"TRANSFER","timeStamp":"2019-11-06T17:02:09.535Z","fromAddr":"bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m","toAddr":"bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx","value":"155.34637464","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":25464828,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"BinanceCEX","source":0,"sequence":384170},{"txHash":"6AD61B6631011CBFFD60D2098EE7A49C81B66BC5268E388722FE0CEDC622F4B2","blockHeight":44814022,"txType":"TRANSFER","timeStamp":"2019-10-30T01:12:16.666Z","fromAddr":"bnb18zjdlyn6xyc50nm83spntdllgvmjr7ue60s3my","toAddr":"bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx","value":"0.00000010","txAsset":"BNB","txFee":"0.00037500","proposalId":null,"txAge":26126621,"orderId":null,"code":0,"data":null,"confirmBlocks":0,"memo":"Use
+        your unique code and claim your share of $30M USDT-BNB  https://claimtether.org/818Z4LXI0469","source":1,"sequence":972}],"total":4}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:35:58 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&endTime=1583672400000&limit=1000&offset=0&startTime=1578787200000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:35:58 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '176'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 bd8e580492caac35a05a48f6ff8f5deb.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - MjqxI9MdifWHn3rsyotCkEXMt4CMk0t4Th9RMwb2ffPcvUzec6p72w==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:35:58 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&end=1563408000000&limit=1000&offset=0&start=1555718400000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:35:59 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '19'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 8df31bf699bb70f03cadd6a093a4b2f3.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - k7mReRLqjlVS_4FQWNfIVV1Jn8YnzdK313P4JBPdK2S_hHDNdUnqTg==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:35:59 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&end=1571097600000&limit=1000&offset=0&start=1563408000000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:00 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '30'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 7dd40957abf3e816a58c0f96c91c29f3.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - n3aqtg0IGwq1AFXC9333wFgVSRhDeRe_qglKtbNbMiAQOKIAcSoW8g==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:00 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&end=1578787200000&limit=1000&offset=0&start=1571097600000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:00 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '8'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 89f41ae711b0d70444c4a52f64f5182b.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - 4_LfD5KeX3TyWeT_CFXpgZswGoVoSESRiZu3NWi0ZB7zTi3Ss_eKuw==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:01 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&end=1583672400000&limit=1000&offset=0&start=1578787200000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:01 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '18'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 db317e9464c479d1c263c81708269e8c.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - 8b-FAjQyZZH-BX-wgGsOTAtkllWr1nAdDqBpStpENJsArImaDLvEtA==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:01 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/account/bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '331'
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:02 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '53'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 babe5d4bbefa74c3f8a7c2c5a0cbd565.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - 8VPQrRqiO7Cj0V9iw8Py0kPyoYJ0ngKHdH_Rjiu8Cn9eAQR2G7CQIA==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"account_number":292827,"address":"bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx","balances":[{"free":"0.14149974","frozen":"0.00000000","locked":"0.00000000","symbol":"BNB"}],"flags":0,"public_key":[3,214,104,76,138,210,56,200,99,70,38,140,98,156,253,42,130,170,137,139,198,113,202,22,17,236,245,94,233,115,6,205,160],"sequence":5}
+
+        '
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:02 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/transactions?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&endTime=1583672400000&limit=1000&offset=0&startTime=1583672400000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:02 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '60'
+      X-Ratelimit-Remaining-Minute:
+      - '59'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '268'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 c21e7684ca3ec0e407dc0675af6cf3c5.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - DKF9k2gp8EtTfu3LdhDBTnNc7wAb35zn30eg46ddXX6eHhJwKmJudw==
+    body:
+      encoding: UTF-8
+      string: '{"tx":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:03 GMT
+- request:
+    method: get
+    uri: https://dex.binance.org/api/v1/trades?address=bnb1w3cvs5gu82m8ju55vewwzsdqna52gz8jxy6mgx&end=1583672400000&limit=1000&offset=0&start=1583672400000&total=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - dex.binance.org
+      User-Agent:
+      - http.rb/4.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Date:
+      - Thu, 27 Aug 2020 10:36:03 GMT
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Ratelimit-Limit-Minute:
+      - '300'
+      X-Ratelimit-Remaining-Minute:
+      - '299'
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Kong-Upstream-Latency:
+      - '3'
+      X-Kong-Proxy-Latency:
+      - '0'
+      Via:
+      - kong/0.14.1, 1.1 ba9b7e039a1f14d52372c11af5c24e68.cloudfront.net (CloudFront)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Vary:
+      - accept-encoding
+      X-Cache:
+      - Miss from cloudfront
+      X-Amz-Cf-Pop:
+      - DEL54-C2
+      X-Amz-Cf-Id:
+      - ark-FaG8SlmhrZQiMHLfouxA4pTKMnFqhbE_rvCu2A1bBJw6P4COtw==
+    body:
+      encoding: UTF-8
+      string: '{"trade":[],"total":0}'
+    http_version:
+  recorded_at: Thu, 27 Aug 2020 10:36:04 GMT
+recorded_with: VCR 4.0.0

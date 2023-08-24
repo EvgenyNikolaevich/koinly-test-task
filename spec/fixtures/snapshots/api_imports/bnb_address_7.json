@@ -1,0 +1,30 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 4,
+  "entry_count": 4,
+  "balances": {
+    "BNB": "680.0000002",
+    "VRAB": "4.0"
+  },
+  "balance_diff": {
+    "GIV": "-2000.0",
+    "SLV": "-1.0",
+    "SPNDB": "-10.0"
+  },
+  "txns": [
+    {
+      "type": "crypto_deposit",
+      "count": 4,
+      "first": "2019-05-22 21:28:28 UTC | Deposit 680.0 BNB (txhash: E175DF0CAB0B8D416A1FB391515CDA1799664C7F3A4DC949BC6E3BC7A3E7A3A6, txsrc: bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m, txdest: bnb1ea5ucfqfxpwfzsq3ukmf9ued4wemx970ahpdfs, importer_tag: binance_dex)",
+      "last": "2019-10-30 01:00:10 UTC | Deposit 0.0000001 BNB (txhash: 45F1CDB488831C3BDF146FE32E931FAA76CC6427C0F2124DF09D33F27BD0F71C, txsrc: bnb1288cxequt67wpyvsf4y3ud5h5yxvtzuznd32lx, txdest: bnb1ea5ucfqfxpwfzsq3ukmf9ued4wemx970ahpdfs, importer_tag: binance_dex)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null
+}

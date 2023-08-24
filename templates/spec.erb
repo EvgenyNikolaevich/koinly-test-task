@@ -1,0 +1,13 @@
+RSpec.describe <%= class_name %>Importer, type: :importer do
+  before do
+    allow(Proxies).to receive(:fetch_proxy)
+    allow_any_instance_of(<%= class_name %>Api).to receive(:sleep) # todo: comment this out if you run into rate limit while testing
+  end
+
+  # TODO: keep this spec but change error message
+  it_behaves_like 'api import', '<%= file_name %>_0', <%= methods.map{|x| "#{x}: 'justignoreme'" }.join(', ') %>, error: SyncAuthError.new("Invalid api key")
+
+  it_behaves_like 'api import', '<%= file_name %>_1', <%= methods.map{|x| "#{x}: '................'" }.join(', ') %>
+
+  it_behaves_like 'api import', '<%= file_name %>_2', <%= methods.map{|x| "#{x}: '................'" }.join(', ') %>
+end
