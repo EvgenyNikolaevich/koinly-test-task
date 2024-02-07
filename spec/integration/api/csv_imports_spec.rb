@@ -23,4 +23,20 @@ RSpec.describe "Csv Imports", type: :request do
     # this file was created manually from the polonidex order history page
     it_behaves_like 'csv import', 'polonidex-copypaste.csv'
   end
+
+  context "coinmetro-transactions" do
+    it_behaves_like 'csv import', 'coin-metro-transactions.csv'
+  end
+
+  context "coinmetro-export" do
+    it_behaves_like 'csv import', 'coinmetro-export.csv'
+  end
+
+  context "coinsmart" do
+    it_behaves_like 'csv import', 'CoinSmart.csv'
+  end
+
+  context "coinsmart-transactions" do
+    it_behaves_like 'csv import', 'coinsmart-Transactions (15).csv'
+  end
 end

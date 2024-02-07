@@ -1,0 +1,64 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 96,
+  "entry_count": 197,
+  "balances": {
+    "EUR": "-14997.02120375",
+    "XCM": "-216306.9496725"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 46,
+      "first": "2019-02-12 21:25:41 UTC | 703.0 EUR -> 37000.0 XCM (desc: Order 48b1f0d8442a3a83, importer_tag: coin_metro)",
+      "last": "2019-08-05 10:17:04 UTC | 1494.4 EUR -> 36448.0 XCM (desc: Order 9299c57368fb4f00, importer_tag: coin_metro)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 1,
+      "first": "2019-02-01 16:17:29 UTC | Withdraw 216172.0 XCM (desc: TGE - 5c546e614dceb8c62af200c6 - completed, importer_tag: coin_metro)",
+      "last": false
+    },
+    {
+      "type": "fiat_withdrawal",
+      "count": 3,
+      "first": "2019-02-11 12:16:42 UTC | Withdraw 3000.0 EUR (desc: Deposit 5c615996c18e6a7039427a68 - completed, importer_tag: coin_metro)",
+      "last": "2019-08-02 14:21:53 UTC | Withdraw 9000.0 EUR (desc: Deposit 5d4446d26a4e9d27133fe37b - completed, importer_tag: coin_metro)"
+    },
+    {
+      "type": "sell",
+      "count": 46,
+      "first": "2019-02-12 21:25:41 UTC | 37000.0 XCM -> 703.0 EUR (desc: Order 48b1f0d8442a3a83, importer_tag: coin_metro)",
+      "last": "2019-08-05 10:17:04 UTC | 36461.5679625 XCM -> 1494.96 EUR (fee: 13.7 XCM, desc: Order 9299c57368fb4f00, importer_tag: coin_metro)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": {
+    "type": "with fee",
+    "count": 9,
+    "first": "2019-06-12 11:54:03 UTC | 1144.337965875 XCM -> 111.14 EUR (fee: 0.429 XCM, desc: Order d74b497c29b2ab96, importer_tag: coin_metro)",
+    "last": "2019-08-05 10:17:04 UTC | 36461.5679625 XCM -> 1494.96 EUR (fee: 13.7 XCM, desc: Order 9299c57368fb4f00, importer_tag: coin_metro)"
+  },
+  "txn_with_net_worth": null,
+  "txn_with_desc": {
+    "type": "with desc",
+    "count": 96,
+    "first": "2019-02-01 16:17:29 UTC | Withdraw 216172.0 XCM (desc: TGE - 5c546e614dceb8c62af200c6 - completed, importer_tag: coin_metro)",
+    "last": "2019-08-05 10:17:04 UTC | 36461.5679625 XCM -> 1494.96 EUR (fee: 13.7 XCM, desc: Order 9299c57368fb4f00, importer_tag: coin_metro)"
+  },
+  "csv_import": {
+    "total_count": 96,
+    "skipped_count": 0,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 96,
+    "bad_rows": [
+
+    ]
+  }
+}

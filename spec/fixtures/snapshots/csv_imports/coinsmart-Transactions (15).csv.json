@@ -1,0 +1,241 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 324,
+  "entry_count": 361,
+  "balances": {
+    "ADA": "9992.84827639",
+    "BTC": "0.00031781",
+    "CAD": "336.05468198",
+    "DASH": "0.00000001",
+    "EOS": "0.002267",
+    "LTC": "0.00000001",
+    "XLM": "0.00000001",
+    "XRP": "0.00000002"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 21,
+      "first": "2020-02-20 20:24:08 UTC | 9.9999999992 CAD -> 126.60150908 ADA (importer_tag: coinsmart)",
+      "last": "2020-04-23 23:41:56 UTC | 26.929305 CAD -> 0.0025 BTC (importer_tag: coinsmart)"
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 54,
+      "first": "2020-02-20 20:23:45 UTC | Deposit 0.10832029 LTC (importer_tag: coinsmart)",
+      "last": "2020-04-27 16:11:49 UTC | Deposit 10012.78555694 ADA (importer_tag: coinsmart)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 132,
+      "first": "2020-02-20 20:23:45 UTC | Withdraw 0.0002166406 LTC (importer_tag: coinsmart)",
+      "last": "2020-04-27 16:11:49 UTC | Withdraw 20.0255711139 ADA (importer_tag: coinsmart)"
+    },
+    {
+      "type": "exchange",
+      "count": 4,
+      "first": "2020-04-24 23:56:16 UTC | 110.31363301 EOS -> 0.0389197529 BTC (importer_tag: coinsmart)",
+      "last": "2020-04-25 00:01:18 UTC | 0.008912023 BTC -> 1054.6772834 XLM (importer_tag: coinsmart)"
+    },
+    {
+      "type": "fiat_deposit",
+      "count": 30,
+      "first": "2020-02-20 20:07:52 UTC | Deposit 103.425 CAD (importer_tag: coinsmart)",
+      "last": "2020-04-27 10:00:55 UTC | Deposit 985.0 CAD (importer_tag: coinsmart)"
+    },
+    {
+      "type": "fiat_withdrawal",
+      "count": 71,
+      "first": "2020-02-20 20:23:45 UTC | Withdraw 9.9999996217 CAD (importer_tag: coinsmart)",
+      "last": "2020-04-27 16:11:49 UTC | Withdraw 649.9999999999 CAD (importer_tag: coinsmart)"
+    },
+    {
+      "type": "sell",
+      "count": 12,
+      "first": "2020-02-21 08:23:48 UTC | 4.8 QCAD -> 4.72344 CAD (importer_tag: coinsmart)",
+      "last": "2020-03-22 13:05:21 UTC | 1.44591135 BCH -> 418.876064688 CAD (importer_tag: coinsmart)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null,
+  "csv_import": {
+    "total_count": 372,
+    "skipped_count": 0,
+    "duplicate_count": 0,
+    "error_count": 11,
+    "success_count": 324,
+    "bad_rows": [
+      {
+        "id": 361,
+        "row": {
+          "": "Total CAD",
+          "Credits": "$11881.20",
+          "Debits": "$11545.15",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "$336.05",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 361
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 362,
+        "row": {
+          "": "Total ADA",
+          "Credits": "10139.39",
+          "Debits": "146.54",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "9992.84827638796",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 362
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 363,
+        "row": {
+          "": "Total BCH",
+          "Credits": "2.96",
+          "Debits": "2.96",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "1.38e-09",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 363
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 364,
+        "row": {
+          "": "Total BTC",
+          "Credits": "1.17",
+          "Debits": "1.17",
+          "Transaction Type": "Current Balance",
+          "Reference Type": null,
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null
+        },
+        "message": "unable to parse row"
+      },
+      {
+        "id": 365,
+        "row": {
+          "": "Total DASH",
+          "Credits": "12.48",
+          "Debits": "12.48",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "6.2e-09",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 365
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 366,
+        "row": {
+          "": "Total EOS",
+          "Credits": "860.14",
+          "Debits": "860.14",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "0.00226699904",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 366
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 367,
+        "row": {
+          "": "Total ETH",
+          "Credits": "6.97",
+          "Debits": "6.97",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "2.8476518e-09",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 367
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 368,
+        "row": {
+          "": "Total LTC",
+          "Credits": "6.91",
+          "Debits": "6.91",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "5.62e-09",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 368
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 369,
+        "row": {
+          "": "Total QCAD",
+          "Credits": "4.80",
+          "Debits": "4.80",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "0",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 369
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 370,
+        "row": {
+          "": "Total XLM",
+          "Credits": "6003.32",
+          "Debits": "6003.32",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "9.26e-09",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 370
+        },
+        "message": "date is invalid"
+      },
+      {
+        "id": 371,
+        "row": {
+          "": "Total XRP",
+          "Credits": "864.85",
+          "Debits": "864.85",
+          "Transaction Type": "Current Balance",
+          "Reference Type": "2.298e-08",
+          "Product": null,
+          "Balance": null,
+          "Time Stamp": null,
+          "File Row #": 371
+        },
+        "message": "date is invalid"
+      }
+    ]
+  }
+}
