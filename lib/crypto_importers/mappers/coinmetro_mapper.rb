@@ -7,8 +7,8 @@ class CoinmetroMapper < BaseMapper
       optional_headers: %w[IBAN Transaction\ Hash Additional\ Info],
       header_mappings: {
         date: 'Date',
-        from_amount: 'Amount',
-        from_currency: 'Currency',
+        amount: 'Amount',
+        currency: 'Currency',
         to_amount: 'Other Amount',
         to_currency: 'Other Currency',
         txhash: 'Transaction hash',

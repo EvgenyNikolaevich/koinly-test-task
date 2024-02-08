@@ -49,56 +49,12 @@
   "txn_with_desc": null,
   "csv_import": {
     "total_count": 21,
-    "skipped_count": 0,
+    "skipped_count": 3,
     "duplicate_count": 0,
-    "error_count": 3,
+    "error_count": 0,
     "success_count": 17,
     "bad_rows": [
-      {
-        "id": 18,
-        "row": {
-          "": "Total CAD",
-          "Credit": "$822.50",
-          "Debit": "$822.50",
-          "Transaction Type": "Current Balance",
-          "Reference Type": "$0.00",
-          "Product": null,
-          "Balance": null,
-          "Time Stamp": null,
-          "File Row #": 18
-        },
-        "message": "date is invalid"
-      },
-      {
-        "id": 19,
-        "row": {
-          "": "Total ADA",
-          "Credit": "12219.09544351",
-          "Debit": "12219.095443507",
-          "Transaction Type": "Current Balance",
-          "Reference Type": "2.98e-09",
-          "Product": null,
-          "Balance": null,
-          "Time Stamp": null,
-          "File Row #": 19
-        },
-        "message": "date is invalid"
-      },
-      {
-        "id": 20,
-        "row": {
-          "": "Total BTC",
-          "Credit": "0.00877108",
-          "Debit": "0.00877107216",
-          "Transaction Type": "Current Balance",
-          "Reference Type": "7.84e-09",
-          "Product": null,
-          "Balance": null,
-          "Time Stamp": null,
-          "File Row #": 20
-        },
-        "message": "date is invalid"
-      }
+
     ]
   }
 }

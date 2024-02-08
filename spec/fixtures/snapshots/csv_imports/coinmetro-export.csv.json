@@ -1,39 +1,49 @@
 {
   "name": "Test Wallet",
-  "txn_count": 72,
-  "entry_count": 144,
+  "txn_count": 181,
+  "entry_count": 181,
   "balances": {
-    "EUR": "6243.38",
-    "QNT": "-1611.9097423"
+    "QNT": "1610.3184443"
   },
   "balance_diff": null,
   "txns": [
     {
-      "type": "sell",
-      "count": 72,
-      "first": "2020-03-31 14:46:42 UTC | 19.1100708 QNT -> 65.95 EUR (desc: Order 5882f6f4af0466ed, importer_tag: coin_metro)",
-      "last": "2020-04-03 12:28:10 UTC | 1.8662319 QNT -> 8.68 EUR (desc: Order fca2ff7581dea1ef, importer_tag: coin_metro)"
+      "type": "crypto_deposit",
+      "count": 94,
+      "first": "2020-03-31 14:46:42 UTC | Deposit 19.1100708 QNT (desc: Order 5882f6f4af0466ed, importer_tag: coin_metro)",
+      "last": "2020-04-03 12:28:10 UTC | Deposit 1.8662319 QNT (desc: Order fca2ff7581dea1ef, importer_tag: coin_metro)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 87,
+      "first": "2020-03-31 14:46:42 UTC | Withdraw 0.0191 QNT (label: cost, desc: Fee, importer_tag: coin_metro)",
+      "last": "2020-04-03 12:28:10 UTC | Withdraw 0.00187 QNT (label: cost, desc: Fee, importer_tag: coin_metro)"
     }
   ],
   "labeled_txns": [
     [
-
+      {
+        "type": "cost",
+        "count": 87,
+        "first": "2020-03-31 14:46:42 UTC | Withdraw 0.0191 QNT (label: cost, desc: Fee, importer_tag: coin_metro)",
+        "last": "2020-04-03 12:28:10 UTC | Withdraw 0.00187 QNT (label: cost, desc: Fee, importer_tag: coin_metro)"
+      }
     ]
   ],
   "txn_with_fee": null,
   "txn_with_net_worth": null,
   "txn_with_desc": {
     "type": "with desc",
-    "count": 72,
-    "first": "2020-03-31 14:46:42 UTC | 19.1100708 QNT -> 65.95 EUR (desc: Order 5882f6f4af0466ed, importer_tag: coin_metro)",
-    "last": "2020-04-03 12:28:10 UTC | 1.8662319 QNT -> 8.68 EUR (desc: Order fca2ff7581dea1ef, importer_tag: coin_metro)"
+    "count": 181,
+    "first": "2020-03-31 14:46:42 UTC | Deposit 19.1100708 QNT (desc: Order 5882f6f4af0466ed, importer_tag: coin_metro)",
+    "last": "2020-04-03 12:28:10 UTC | Withdraw 0.00187 QNT (label: cost, desc: Fee, importer_tag: coin_metro)"
   },
   "csv_import": {
     "total_count": 94,
     "skipped_count": 0,
     "duplicate_count": 0,
     "error_count": 0,
-    "success_count": 72,
+    "success_count": 181,
     "bad_rows": [
 
     ]
