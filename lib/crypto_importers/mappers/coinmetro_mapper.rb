@@ -9,17 +9,18 @@ class CoinmetroMapper < BaseMapper
         date: 'Date',
         amount: 'Amount',
         currency: 'Currency',
-        to_amount: 'Other Amount',
-        to_currency: 'Other Currency',
         txhash: 'Transaction hash',
         description: 'Description',
         fee_currency: 'Currency',
         fee_amount: 'Fees'
       },
       group: {
-        by_hash: ->(_mapped, row) { row['Description'] },
-        eligible: ->(_mapped, row) { row['Description'].match?(/order/i) },
-      }
+        by_hash: ->(_mapped_row, raw_row) { raw_row['Date'] },
+        eligible: ->(_mapped_row, raw_row) { raw_row['Description'].match?(/order/i) },
+      },
+      process: -> (mapped_row, raw_row, _) do
+        mapped_row[:skip] = true if raw_row['Description'].match?(/TGE/)
+      end
     },
   ]
 end
