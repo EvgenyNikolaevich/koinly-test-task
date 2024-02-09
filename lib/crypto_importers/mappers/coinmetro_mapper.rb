@@ -15,8 +15,7 @@ class CoinmetroMapper < BaseMapper
         fee_amount: 'Fees'
       },
       group: {
-        by_hash: ->(_mapped_row, raw_row) { raw_row['Date'] },
-        eligible: ->(_mapped_row, raw_row) { raw_row['Description'].match?(/order/i) },
+        by_hash: ->(_mapped, raw_row) { raw_row['Description'] },
       },
       process: -> (mapped_row, raw_row, _) do
         mapped_row[:skip] = true if raw_row['Description'].match?(/TGE/)
