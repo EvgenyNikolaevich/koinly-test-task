@@ -18,7 +18,7 @@ class CoinmetroMapper < BaseMapper
         by_hash: ->(_mapped, raw_row) { raw_row['Description'] },
       },
       process: -> (mapped_row, raw_row, _) do
-        mapped_row[:skip] = true if raw_row['Description'].match?(/TGE/)
+        mapped_row[:skip] = true if raw_row['Description']&.match?(/TGE/)
       end
     },
   ]
