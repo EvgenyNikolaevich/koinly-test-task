@@ -1,0 +1,60 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 17,
+  "entry_count": 18,
+  "balances": {
+    "BTC": "0.00000001",
+    "CAD": "0.0015127"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 1,
+      "first": "2019-10-13 00:35:02 UTC | 61.930736 CAD -> 0.0056 BTC (importer_tag: coinsmart)",
+      "last": false
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 3,
+      "first": "2019-10-13 00:35:02 UTC | Deposit 0.00317108 BTC (importer_tag: coinsmart)",
+      "last": "2019-11-18 12:24:47 UTC | Deposit 6068.14771351 ADA (importer_tag: coinsmart)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 8,
+      "first": "2019-10-13 00:35:02 UTC | Withdraw 0.0000063422 BTC (importer_tag: coinsmart)",
+      "last": "2019-11-19 13:43:08 UTC | Withdraw 0.3 ADA (importer_tag: coinsmart)"
+    },
+    {
+      "type": "fiat_deposit",
+      "count": 2,
+      "first": "2019-10-06 09:01:55 UTC | Deposit 97.5 CAD (importer_tag: coinsmart)",
+      "last": "2019-11-17 15:31:55 UTC | Deposit 725.0 CAD (importer_tag: coinsmart)"
+    },
+    {
+      "type": "fiat_withdrawal",
+      "count": 3,
+      "first": "2019-10-13 00:35:02 UTC | Withdraw 35.4377512975 CAD (importer_tag: coinsmart)",
+      "last": "2019-11-18 12:24:47 UTC | Withdraw 360.1081579105 CAD (importer_tag: coinsmart)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null,
+  "csv_import": {
+    "total_count": 21,
+    "skipped_count": 3,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 17,
+    "bad_rows": [
+
+    ]
+  }
+}

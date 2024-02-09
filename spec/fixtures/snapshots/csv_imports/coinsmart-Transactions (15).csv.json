@@ -1,0 +1,78 @@
+{
+  "name": "Test Wallet",
+  "txn_count": 324,
+  "entry_count": 361,
+  "balances": {
+    "ADA": "9992.84827639",
+    "BTC": "0.00031781",
+    "CAD": "336.05468198",
+    "DASH": "0.00000001",
+    "EOS": "0.002267",
+    "LTC": "0.00000001",
+    "XLM": "0.00000001",
+    "XRP": "0.00000002"
+  },
+  "balance_diff": null,
+  "txns": [
+    {
+      "type": "buy",
+      "count": 21,
+      "first": "2020-02-20 20:24:08 UTC | 9.9999999992 CAD -> 126.60150908 ADA (importer_tag: coinsmart)",
+      "last": "2020-04-23 23:41:56 UTC | 26.929305 CAD -> 0.0025 BTC (importer_tag: coinsmart)"
+    },
+    {
+      "type": "crypto_deposit",
+      "count": 54,
+      "first": "2020-02-20 20:23:45 UTC | Deposit 0.10832029 LTC (importer_tag: coinsmart)",
+      "last": "2020-04-27 16:11:49 UTC | Deposit 10012.78555694 ADA (importer_tag: coinsmart)"
+    },
+    {
+      "type": "crypto_withdrawal",
+      "count": 132,
+      "first": "2020-02-20 20:23:45 UTC | Withdraw 0.0002166406 LTC (importer_tag: coinsmart)",
+      "last": "2020-04-27 16:11:49 UTC | Withdraw 20.0255711139 ADA (importer_tag: coinsmart)"
+    },
+    {
+      "type": "exchange",
+      "count": 4,
+      "first": "2020-04-24 23:56:16 UTC | 110.31363301 EOS -> 0.0389197529 BTC (importer_tag: coinsmart)",
+      "last": "2020-04-25 00:01:18 UTC | 0.008912023 BTC -> 1054.6772834 XLM (importer_tag: coinsmart)"
+    },
+    {
+      "type": "fiat_deposit",
+      "count": 30,
+      "first": "2020-02-20 20:07:52 UTC | Deposit 103.425 CAD (importer_tag: coinsmart)",
+      "last": "2020-04-27 10:00:55 UTC | Deposit 985.0 CAD (importer_tag: coinsmart)"
+    },
+    {
+      "type": "fiat_withdrawal",
+      "count": 71,
+      "first": "2020-02-20 20:23:45 UTC | Withdraw 9.9999996217 CAD (importer_tag: coinsmart)",
+      "last": "2020-04-27 16:11:49 UTC | Withdraw 649.9999999999 CAD (importer_tag: coinsmart)"
+    },
+    {
+      "type": "sell",
+      "count": 12,
+      "first": "2020-02-21 08:23:48 UTC | 4.8 QCAD -> 4.72344 CAD (importer_tag: coinsmart)",
+      "last": "2020-03-22 13:05:21 UTC | 1.44591135 BCH -> 418.876064688 CAD (importer_tag: coinsmart)"
+    }
+  ],
+  "labeled_txns": [
+    [
+
+    ]
+  ],
+  "txn_with_fee": null,
+  "txn_with_net_worth": null,
+  "txn_with_desc": null,
+  "csv_import": {
+    "total_count": 372,
+    "skipped_count": 11,
+    "duplicate_count": 0,
+    "error_count": 0,
+    "success_count": 324,
+    "bad_rows": [
+
+    ]
+  }
+}
